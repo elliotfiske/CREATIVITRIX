@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1074">
+    <generator>Inform Mac Client (Inform version 1.64/6.33/6M62)</generator>
+    <item nodeId="node-1074">
+        <command xml:space="preserve">stupid-test</command>
+        <result xml:space="preserve">
+
+
+stupid-test
+An Interactive Fiction by Elliot Fiske
+Release 1 / Serial number 160106 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+test
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1077"></child>
+            <child nodeId="node-1079"></child>
+        </children>
+    </item>
+    <item nodeId="node-1079">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+t ̡ ̵ ̷ ͢ e ͘ ̡ ̸ ͝ ̛ s ̸ ͞ t ͟ ̸ ̸
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1082"></child>
+        </children>
+    </item>
+    <item nodeId="node-1082">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+t ̡ ̵ ̷ ͢ e ͘ ̡ ̸ ͝ ̛ s ̸ ͞ t ͟ ̸ ̸
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1083"></child>
+        </children>
+    </item>
+    <item nodeId="node-1083">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+t Í  Ì  Í  Ì ¼ Ì  Ì ® e Í  Ì ª Í  Ì ¬ Ì ª Ì ¼ s Ì  t Ì ³ Ì ² Ì  Í 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1077">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1078"></child>
+        </children>
+    </item>
+    <item nodeId="node-1078">
+        <command xml:space="preserve">look room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>

@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1027">
+    <generator>Inform Mac Client (Inform version 1.64/6.33/6M62)</generator>
+    <item nodeId="node-1027">
+        <command xml:space="preserve">test-project</command>
+        <result xml:space="preserve">
+
+
+test-project
+An Interactive Fiction by Elliot Fiske
+Release 1 / Serial number 160104 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+cool
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1045"></child>
+            <child nodeId="node-1030"></child>
+        </children>
+    </item>
+    <item nodeId="node-1030">
+        <command xml:space="preserve">look room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1031"></child>
+        </children>
+    </item>
+    <item nodeId="node-1031">
+        <command xml:space="preserve">look at room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1032"></child>
+        </children>
+    </item>
+    <item nodeId="node-1032">
+        <command xml:space="preserve">die</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1033"></child>
+        </children>
+    </item>
+    <item nodeId="node-1033">
+        <command xml:space="preserve">look self</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1034"></child>
+        </children>
+    </item>
+    <item nodeId="node-1034">
+        <command xml:space="preserve">eat self</command>
+        <result xml:space="preserve">You're plainly inedible.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1035"></child>
+        </children>
+    </item>
+    <item nodeId="node-1035">
+        <command xml:space="preserve">punch self</command>
+        <result xml:space="preserve">Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1036"></child>
+        </children>
+    </item>
+    <item nodeId="node-1036">
+        <command xml:space="preserve">die</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1037"></child>
+        </children>
+    </item>
+    <item nodeId="node-1037">
+        <command xml:space="preserve">kill self</command>
+        <result xml:space="preserve">Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1038"></child>
+        </children>
+    </item>
+    <item nodeId="node-1038">
+        <command xml:space="preserve">murder self</command>
+        <result xml:space="preserve">Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1039"></child>
+        </children>
+    </item>
+    <item nodeId="node-1039">
+        <command xml:space="preserve">jump</command>
+        <result xml:space="preserve">You jump on the spot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1045">
+        <command xml:space="preserve">look cool</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1046"></child>
+        </children>
+    </item>
+    <item nodeId="node-1046">
+        <command xml:space="preserve">look self</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1047"></child>
+        </children>
+    </item>
+    <item nodeId="node-1047">
+        <command xml:space="preserve">eat self</command>
+        <result xml:space="preserve">You're plainly inedible.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1048"></child>
+        </children>
+    </item>
+    <item nodeId="node-1048">
+        <command xml:space="preserve">wait</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>

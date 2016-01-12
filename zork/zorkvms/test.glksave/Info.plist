@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ZoomGlkGameFileName</key>
+	<string>/Users/elliotfiske/james/zork/hugozork.hex</string>
+	<key>ZoomGlkGameId</key>
+	<string>HUGO-25-49-53-02-06-99</string>
+	<key>ZoomGlkPluginAuthor</key>
+	<string>Andrew Hunter</string>
+	<key>ZoomGlkPluginDescription</key>
+	<string>Zoom Hugo PlugIn</string>
+	<key>ZoomGlkPluginVersion</key>
+	<string>1.1.5</string>
+</dict>
+</plist>

@@ -1,0 +1,281 @@
+<Skein rootNode="node-0x2de6f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0xf302970" />
+  <item nodeId="node-0x2de6f0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">HUGO ZORK: The Great Underground Empire
+A Port of Infocom&apos;s Zork I to Hugo
+Beta Release 1
+Hugo Zork written by John Menichelli
+&quot;Zork I&quot; is copyright by Activision and is used without permission
+Written using Hugo v2.5 by Kent Tessman (c) 1995-1999
+(New players should type &quot;help&quot;)
+
+West of House
+You are standing in an open field west of a white house, with a boarded front door.
+A small mailbox is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">NO</temporary>
+    <children>
+      <child nodeId="node-0x12e2d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x12e2d0">
+    <command xml:space="preserve">open mailbox.take leaflet.read leaflet. drop leaflet</command>
+    <result xml:space="preserve">Inside the small mailbox is:
+  a leaflet
+
+Taken.
+
+&quot;WELCOME TO HUGO ZORK!
+
+HUGO ZORK is a game of adventure, danger, and low cunning. In it you will explore some of the most amazing territory ever seen by mortals. No computer should be without one!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x126250" />
+    </children>
+  </item>
+  <item nodeId="node-0x126250">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+North of House
+You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0xd802b60" />
+    </children>
+  </item>
+  <item nodeId="node-0xd802b60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x21df00" />
+    </children>
+  </item>
+  <item nodeId="node-0x21df00">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+Up a Tree
+You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+Beside you on the branch is a small bird&apos;s nest.
+  In the bird&apos;s nest is:
+    a jewel-encrusted egg
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bd0b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bd0b0">
+    <command xml:space="preserve">take egg</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x2da810" />
+    </children>
+  </item>
+  <item nodeId="node-0x2da810">
+    <command xml:space="preserve">open egg</command>
+    <result xml:space="preserve">You have neither the tools nor the expertise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0xd803400" />
+    </children>
+  </item>
+  <item nodeId="node-0xd803400">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Forest Path
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x133dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x133dd0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+North of House
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c0980" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c0980">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house is a small window which is slightly ajar.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0xd80e300" />
+    </children>
+  </item>
+  <item nodeId="node-0xd80e300">
+    <command xml:space="preserve">open window. enter. take everything</command>
+    <result xml:space="preserve">With great effort, you open the window far enough to allow entry.
+
+Be a little more specific about what you&apos;d like to enter.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x132bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x132bb0">
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">Be a little more specific about what you&apos;d like to enter.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x12b550" />
+    </children>
+  </item>
+  <item nodeId="node-0x12b550">
+    <command xml:space="preserve">enter window</command>
+    <result xml:space="preserve">
+Kitchen
+You are in the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west and a dark staircase can be seen leading upward. A dark chimney leads down and to the east is a small window which is open.
+On the table is an elongated brown sack, smelling of hot peppers.
+A bottle is sitting on the table.
+  Inside the bottle is:
+    a quantity of water
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x12fc20" />
+    </children>
+  </item>
+  <item nodeId="node-0x12fc20">
+    <command xml:space="preserve">take everything</command>
+    <result xml:space="preserve">sack:  Taken.
+bottle:  Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0xd81af10" />
+    </children>
+  </item>
+  <item nodeId="node-0xd81af10">
+    <command xml:space="preserve">open bottle</command>
+    <result xml:space="preserve">The bottle is now open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x127fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x127fd0">
+    <command xml:space="preserve">open sack</command>
+    <result xml:space="preserve">Opened.
+
+Inside the sack are:
+  a lunch
+  a clove of garlic
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x325e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x325e20">
+    <command xml:space="preserve">drink water</command>
+    <result xml:space="preserve">Thank you very much. I was rather thirsty (from all this talking, probably).
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x133210" />
+    </children>
+  </item>
+  <item nodeId="node-0x133210">
+    <command xml:space="preserve">eat lunch</command>
+    <result xml:space="preserve">Thank you very much. It really hit the spot.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x1309f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1309f0">
+    <command xml:space="preserve">save</command>
+    <result xml:space="preserve">Unable to save.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0xf302970" />
+    </children>
+  </item>
+  <item nodeId="node-0xf302970">
+    <command xml:space="preserve">save</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+  </item>
+</Skein>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1148">
+    <generator>Inform Mac Client (Inform version 1.64/6.33/6M62)</generator>
+    <item nodeId="node-1148">
+        <command xml:space="preserve">Example - Flathead News Network</command>
+        <result xml:space="preserve">
+
+
+Flathead News Network
+An Interactive Fiction
+Release 1 / Serial number 160108 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Newsroom
+This is the secret nerve-centre of FNN, the Flathead News Network.
+
+You can see a BBC button, a NASA button, a WHO button and a screen here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1153"></child>
+            <child nodeId="node-1151"></child>
+        </children>
+    </item>
+    <item nodeId="node-1151">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1152"></child>
+        </children>
+    </item>
+    <item nodeId="node-1152">
+        <command xml:space="preserve">push bbc</command>
+        <result xml:space="preserve">Bong!
+
+*** Error on file 'rssreply': only existing files can be marked ***
+
+*** Run-time problem P48: Error handling external file.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1153">
+        <command xml:space="preserve">push nasa</command>
+        <result xml:space="preserve">Bang!
+
+*** Error on file 'rssreply': only existing files can be marked ***
+
+*** Run-time problem P48: Error handling external file.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>

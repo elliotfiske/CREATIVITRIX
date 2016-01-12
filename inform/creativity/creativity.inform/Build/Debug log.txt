@@ -1,0 +1,130 @@
+Debugging log of Inform 7
+Inform called as: /Applications/Inform.app/Contents/MacOS/ni -internal /Applications/Inform.app/Contents/Resources/Internal -external /Users/elliotfiske/Library/Inform -project /Users/elliotfiske/james/inform/creativity/creativity.inform -format=ulx
+Found language bundle 'English' (built in)
+Found language bundle 'French' (built in)
+Found language bundle 'German' (built in)
+Found language bundle 'Italian' (built in)
+Found language bundle 'Spanish' (built in)
+Found language bundle 'Swedish' (built in)
+Reading language definition from </Applications/Inform.app/Contents/Resources/Internal/Languages/English/Syntax.preform>
+720 declarations read (14183 words)
+
+
+-----------------------------------------------------
+Phase I ... Lexical analysis
+-----------------------------------------------------
+
+I've now read your source text, which is 530 words long.
+
+
+-----------------------------------------------------
+Phase II ... Semantic analysis Ia
+-----------------------------------------------------
+
+I've also read Standard Rules by Graham Nelson, which is 42655 words long.
+I've also read English Language by Graham Nelson, which is 2297 words long.
+I've also read Basic Screen Effects by Emily Short, which is 2218 words long.
+I've also read Basic Hyperlinks by Emily Short, which is 698 words long.
+I've also read Glulx Entry Points by Emily Short, which is 2682 words long.
+
+
+-----------------------------------------------------
+Phase III ... Initialise language semantics
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase IV ... Semantic analysis Ib
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase V ... Semantic analysis II
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase VI ... Semantic analysis III
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase VII ... First pass through assertions
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase VIII ... Second pass through assertions
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase IX ... Making the model world
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase X ... Tables and grammar
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase XI ... Phrases and rules
+-----------------------------------------------------
+
+Problem PM_BadRulePreambleWhen issued from inform7/Chapter 28/Phrase Usage.w, line 465
+
+In Part 2 - Setup and Configuration Stuff, Chapter 1 - Dumb Tables:
+
+
+  >--> The punctuation makes me think 'When rating1' (source text, line 44)
+    should be a definition of a phrase or a rule, but it doesn't begin as it
+    should, with either 'To' (e.g. 'To flood the riverplain:'), 'Definition:',
+    a name for a rule (e.g. 'This is the devilishly cunning rule:'), 'At' plus
+    a time (e.g. 'At 11:12 PM:' or 'At the time when the clock chimes:') or the
+    name of a rulebook. As your rule begins with 'When', it may be worth
+    noting that in December 2006 the syntax used by Inform for timed events
+    changed: the old syntax 'When the sky falls in:' to create a named event,
+    the sky falls in, became 'At the time when the sky falls in:'. This was
+    changed to avoid confusion with rules relating to when scenes begin or end.
+    Or perhaps you meant to say that something would only happen when some
+    condition held. Inform often allows this, but the 'when...' part tends to
+    be at the end, not up front - for instance, 'Understand "blue" as the deep
+    crevasse when the location is the South Pole.'
+
+
+
+-----------------------------------------------------
+Phase XII ... Compilation now complete
+-----------------------------------------------------
+
+Total of 4 files written as streams.
+CPU time: 61 centiseconds
+
+
+That concludes the debugging log from this run of Inform.
+Its contents were as follows, and can be changed by placing
+text like 'Include property creations in the debugging log.'
+or 'Omit everything from the debugging log.' in the source.
+
+Included:
+  debugging log contents  debugging log inclusions
+Omitted:
+  action creations   action pattern compilation  action pattern parsing  assemblies    assertions    case insensitive filehandling
+  conditions    constructed past participles  constructed plurals   description compilation   excerpt meanings   excerpt parsing 
+  expressions    extensions census   figure creations   grammar    grammar construction   headings  
+  implications    inferences    kind changes   kind checking   kind creations   lexical output 
+  local variables   matching    meaning list allocation  memory allocation   noun resolution   object compilation 
+  object creations   object tree   phrase comparisons   phrase compilation   phrase creations   phrase registration 
+  phrase usage   predicate calculus   predicate calculus workings  pronouns    property creations   property provision 
+  property translations   relation definitions   rule attachments   rulebook compilation   spatial map   spatial map workings
+  specification permissions   specification usage   specificities    table construction   template reading   text substitutions 
+  time periods   variable creations   verifications    vocabulary  

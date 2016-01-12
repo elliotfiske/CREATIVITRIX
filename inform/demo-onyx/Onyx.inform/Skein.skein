@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1090">
+    <generator>Inform Mac Client (Inform version 1.64/6.33/6M62)</generator>
+    <item nodeId="node-1090">
+        <command xml:space="preserve">Onyx</command>
+        <result xml:space="preserve">
+
+
+Onyx
+An Interactive Fiction
+Release 1 / Serial number 160108 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Deep Forest
+You are lost in a deep forest. The trees grow so close together that you cannot see the sun or the sky, and no grass or small plants thrive on the ground.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1122"></child>
+            <child nodeId="node-1104"></child>
+            <child nodeId="node-1103"></child>
+            <child nodeId="node-1121"></child>
+            <child nodeId="node-1127"></child>
+            <child nodeId="node-1093"></child>
+            <child nodeId="node-1107"></child>
+            <child nodeId="node-1113"></child>
+        </children>
+    </item>
+    <item nodeId="node-1113">
+        <command xml:space="preserve">x tiny mouse</command>
+        <result xml:space="preserve">WHAT ARE YOU LOOKIN AT 0 PUNK
+
+The tiny mouse is currently switched off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1114"></child>
+        </children>
+    </item>
+    <item nodeId="node-1114">
+        <command xml:space="preserve">switch on mouse</command>
+        <result xml:space="preserve">You switch the tiny mouse on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1107">
+        <command xml:space="preserve">x mouse</command>
+        <result xml:space="preserve">WHAT ARE YOU LOOKIN AT 0 PUNK 
+
+The tiny mouse is currently switched off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1116"></child>
+            <child nodeId="node-1119"></child>
+            <child nodeId="node-1112"></child>
+        </children>
+    </item>
+    <item nodeId="node-1112">
+        <command xml:space="preserve">x creature</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1119">
+        <command xml:space="preserve">take mouse</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1120"></child>
+        </children>
+    </item>
+    <item nodeId="node-1120">
+        <command xml:space="preserve">x mouse</command>
+        <result xml:space="preserve">WHAT ARE YOU LOOKIN AT 0 PUNK  LETME GO 
+
+The tiny mouse is currently switched off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1116">
+        <command xml:space="preserve">switch on mouse</command>
+        <result xml:space="preserve">You switch the tiny mouse on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1117"></child>
+        </children>
+    </item>
+    <item nodeId="node-1117">
+        <command xml:space="preserve">x mouse</command>
+        <result xml:space="preserve">WHAT ARE YOU LOOKIN AT 0 PUNK  BRAHWEHOIAWEHFOEHIA 
+
+The tiny mouse is currently switched on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1093">
+        <command xml:space="preserve">tree</command>
+        <result xml:space="preserve">compass (582414) 
+  the north
+  the northeast
+  the northwest
+  the south
+  the southeast
+  the southwest
+  the east
+  the west
+  the up
+  the down
+  the inside
+  the outside
+(darkness object) (582446) 
+(Inform Parser) (582478) 
+(Inform Library) (582510) 
+(property_numberspace_forcer) (582542) 
+(ValuePropertyHolder_43) (582606) 
+(ValuePropertyHolder_47) (582638) 
+Deep Forest (583630) 
+  yourself
+    a magic ball
+Baba Yaga's Garden (583662) 
+Baba Yaga's Hut (583694) 
+  a gigantic mortar
+  Baba Yaga
+    a magic towel
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1094"></child>
+        </children>
+    </item>
+    <item nodeId="node-1094">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Baba Yaga's Garden
+In this garden grow plants that eat insects and plants that eat birds. It is bordered by a bone fence, and the pavements are made of a giant's kneecaps.
+
+In the center of the garden is Baba Yaga's hut, which walks on chicken legs. Currently the hut is squatting on the ground.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1095"></child>
+        </children>
+    </item>
+    <item nodeId="node-1095">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Deep Forest
+You are lost in a deep forest. The trees grow so close together that you cannot see the sun or the sky, and no grass or small plants thrive on the ground.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1096"></child>
+        </children>
+    </item>
+    <item nodeId="node-1096">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Baba Yaga's Garden
+In this garden grow plants that eat insects and plants that eat birds. It is bordered by a bone fence, and the pavements are made of a giant's kneecaps.
+
+In the center of the garden is Baba Yaga's hut, which walks on chicken legs. Currently the hut is squatting on the ground.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1097"></child>
+        </children>
+    </item>
+    <item nodeId="node-1097">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1098"></child>
+        </children>
+    </item>
+    <item nodeId="node-1098">
+        <command xml:space="preserve">tree</command>
+        <result xml:space="preserve">compass (582414) 
+  the north
+  the northeast
+  the northwest
+  the south
+  the southeast
+  the southwest
+  the east
+  the west
+  the up
+  the down
+  the inside
+  the outside
+(darkness object) (582446) 
+(Inform Parser) (582478) 
+(Inform Library) (582510) 
+(property_numberspace_forcer) (582542) 
+(ValuePropertyHolder_43) (582606) 
+(ValuePropertyHolder_47) (582638) 
+Deep Forest (583630) 
+Baba Yaga's Garden (583662) 
+  yourself
+    a magic ball
+Baba Yaga's Hut (583694) 
+  a gigantic mortar
+  Baba Yaga
+    a magic towel
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1099"></child>
+        </children>
+    </item>
+    <item nodeId="node-1099">
+        <command xml:space="preserve">whome</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1100"></child>
+        </children>
+    </item>
+    <item nodeId="node-1100">
+        <command xml:space="preserve">showme</command>
+        <result xml:space="preserve">Baba Yaga's Garden - room
+    yourself - person
+        magic ball
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1101"></child>
+        </children>
+    </item>
+    <item nodeId="node-1101">
+        <command xml:space="preserve">showme self</command>
+        <result xml:space="preserve">yourself - person
+    magic ball
+location: in Baba Yaga's Garden
+singular-named, proper-named; unlit, inedible, portable; male
+list grouping key: none
+printed name: "yourself"
+printed plural name: "people"
+indefinite article: none
+description: "Some people call you Ivan the Fool, but you pay no attention to their rudeness."
+initial appearance: none
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1102"></child>
+        </children>
+    </item>
+    <item nodeId="node-1102">
+        <command xml:space="preserve">relations</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1127">
+        <command xml:space="preserve">touch mouse</command>
+        <result xml:space="preserve">STEP OFF M8
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1128"></child>
+        </children>
+    </item>
+    <item nodeId="node-1128">
+        <command xml:space="preserve">actions</command>
+        <result xml:space="preserve">Actions listing on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1129"></child>
+        </children>
+    </item>
+    <item nodeId="node-1129">
+        <command xml:space="preserve">take mouse</command>
+        <result xml:space="preserve">[taking the tiny mouse]
+[(1) jumping]
+Yeah, you did that once as a kid, on accident. Not  happening again.
+[(1) jumping - failed]
+
+[taking the tiny mouse - failed]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1130"></child>
+        </children>
+    </item>
+    <item nodeId="node-1130">
+        <command xml:space="preserve">actions off</command>
+        <result xml:space="preserve">Actions listing off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1131"></child>
+        </children>
+    </item>
+    <item nodeId="node-1131">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1132"></child>
+        </children>
+    </item>
+    <item nodeId="node-1132">
+        <command xml:space="preserve">take mouse</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "Instead of taking the mouse" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "Instead of jumping" applies.]
+Yeah, you did that once as a kid, on accident. Not  happening again.
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1133"></child>
+        </children>
+    </item>
+    <item nodeId="node-1133">
+        <command xml:space="preserve">actions</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+Actions listing on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1134"></child>
+        </children>
+    </item>
+    <item nodeId="node-1134">
+        <command xml:space="preserve">take mouse</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[taking the tiny mouse]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "Instead of taking the mouse" applies.]
+[(1) jumping]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "Instead of jumping" applies.]
+Yeah, you did that once as a kid, on accident. Not  happening again.
+[(1) jumping - failed]
+
+[taking the tiny mouse - failed]
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1121">
+        <command xml:space="preserve">take mouse</command>
+        <result xml:space="preserve">the tiny mouse EXPLODES AND YOU DIE HAHAHAHA
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1103">
+        <command xml:space="preserve">look mouse</command>
+        <result xml:space="preserve">You see nothing special about mouse.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1104">
+        <command xml:space="preserve">look fence</command>
+        <result xml:space="preserve">You see nothing special about the fence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1105"></child>
+        </children>
+    </item>
+    <item nodeId="node-1105">
+        <command xml:space="preserve">x fence</command>
+        <result xml:space="preserve">You see nothing special about the fence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1106"></child>
+        </children>
+    </item>
+    <item nodeId="node-1106">
+        <command xml:space="preserve">x mouse</command>
+        <result xml:space="preserve">You see nothing special about the mouse.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1122">
+        <command xml:space="preserve">jump</command>
+        <result xml:space="preserve">Yeah, you did that once as a kid, on accident. Not  happening again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1136"></child>
+            <child nodeId="node-1123"></child>
+            <child nodeId="node-1126"></child>
+        </children>
+    </item>
+    <item nodeId="node-1126">
+        <command xml:space="preserve">take mouse</command>
+        <result xml:space="preserve">Yeah, you did that once as a kid, on accident. Not  happening again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1123">
+        <command xml:space="preserve">jump</command>
+        <result xml:space="preserve">Yeah, you did that once as a kid, on accident. Not  happening again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1141"></child>
+        </children>
+    </item>
+    <item nodeId="node-1141">
+        <command xml:space="preserve">x mouse</command>
+        <result xml:space="preserve">STEP OFF M8
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1136">
+        <command xml:space="preserve">actions</command>
+        <result xml:space="preserve">Actions listing on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1137"></child>
+        </children>
+    </item>
+    <item nodeId="node-1137">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1138"></child>
+        </children>
+    </item>
+    <item nodeId="node-1138">
+        <command xml:space="preserve">jump</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[jumping]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "After jumping" applies.]
+Yeah, you did that once as a kid, on accident. Not  happening again.
+[jumping - succeeded]
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
