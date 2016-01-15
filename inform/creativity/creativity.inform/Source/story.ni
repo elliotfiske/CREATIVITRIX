@@ -65,7 +65,7 @@ The gave_points_for_bad_rating is a truth state variable. gave_points_for_bad_ra
 A rating is a kind of value. 5 stars specifies a rating.
 
 When play begins:
-	the first rating happens in 300 turns from now.
+	the first rating happens in 4 turns from now.
 	
 At the time when the first rating happens:
 	say "[bold type]HELLO AGAIN! I'D LIKE TO INTRODUCE... THE RATINGS MODULE! HUMAN FEEDBACK IS CRUCIAL TO CREATIVITRIX, AND THIS LITTLE GUY IS HERE TO COLLECT IT! I'LL LET HIM TALK:[roman type][paragraph break][paragraph break] Please rate your experience with the CREATIVITRIX QUALIFICATION DETERMINATION SIMULATION thus far:[paragraph break]";
@@ -903,3 +903,5 @@ Check pressing the FINISH button:
 	say "-------------------";
 	say "YOU FINISHED THE GAME FOR NOW! I'M EVENTUALLY GOING TO PUT AN 'END STORY' HERE BUT I HAVEN'T YET. JUST ENJOY YOUR SCORE ON THE SCOREBOARD AND CHILL OUT FOR NOW. YOU CAN KEEP PLAYING IF YOU WANT I GUESS.";
 	say "-------------------";
+	wait for any key;
+	now the left hand status line is "POST-GAME BLISS";

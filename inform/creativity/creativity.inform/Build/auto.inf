@@ -13513,8 +13513,8 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! When play begins:
 [ R_886 ;
     if (debug_rules) DB_Rule(R_886, 886);
-    ! [2: the first rating happens in 300 turns from now]
-    SetTimedEvent(R_887, 300+1, 0);
+    ! [2: the first rating happens in 4 turns from now]
+    SetTimedEvent(R_887, 4+1, 0);
     rfalse;
 ];
 ! No specific request
@@ -23106,7 +23106,11 @@ Array ActionHappened --> 0 0 0 0 0 0;
     say__p=1;! [6: ~YOU FINISHED THE GAME FOR NOW! I'M EVENTUALLY GOING TO PUT AN 'END STORY' HERE BUT I HAVEN'T YET. JUST ENJOY YOUR SCORE ON THE SCOREBOARD AND CHILL OUT FOR NOW. YOU CAN KEEP PLAYING IF YOU WANT I GUESS.~]
     ParaContent(); print "YOU FINISHED THE GAME FOR NOW! I'M EVENTUALLY GOING TO PUT AN ~END STORY~ HERE BUT I HAVEN'T YET. JUST ENJOY YOUR SCORE ON THE SCOREBOARD AND CHILL OUT FOR NOW. YOU CAN KEEP PLAYING IF YOU WANT I GUESS."; new_line; .L_Say426; .L_SayX424;! [7: say ~-------------------~]
     say__p=1;! [8: ~-------------------~]
-    ParaContent(); print "-------------------"; .L_Say427; .L_SayX425;} else if (debug_rules > 1) DB_Rule(R_971, 971, 'action');
+    ParaContent(); print "-------------------"; .L_Say427; .L_SayX425;! [9: wait for any key]
+    KeyPause();
+    ! [10: now the left hand status line is ~POST-GAME BLISS~]
+    BlkValueCopy(left_hand_status_line, TX_L_135);
+    } else if (debug_rules > 1) DB_Rule(R_971, 971, 'action');
     rfalse;
 ];
 ! No specific request
@@ -57074,6 +57078,8 @@ Constant TX_PS_126 = "Jim looks uncomfortable. ~Entropy... They say that even st
 Constant TX_PS_132 = "Just say ~COMBINE~ to combine all the alloys in your inventory.";
 Constant TX_PS_63 = "MEND alloy";
 Constant TX_PS_26 = "MEND alloys";
+Constant TX_PS_135 = "POST-GAME BLISS";
+Array TX_L_135 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_135;
 Constant TX_PS_116 = "QUIT";
 Constant TX_PS_113 = "RESTART";
 Constant TX_PS_114 = "RESTORE a saved game";
