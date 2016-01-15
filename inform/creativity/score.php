@@ -72,15 +72,18 @@
     query.find({
       success:function(list) {
         // list contains post liked by the current user which have the title "I'm Hungry".
+        var inserted = false;
         list.forEach(function(item) {
             console.log("yes: " + item.get("points"));
 
             if (item.get("points") > pointsGot) {
                 place++;
-
+            }
+            else if(!inserted && pointsGot) {
                 var li = $("<li><span>" + pointsGot + "</span></li>");
 
                 $("#hiscores").append(li);
+                inserted = true;
             }
 
             var li = $("<li><span>" + item.get("points") + "</span></li>");
