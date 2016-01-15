@@ -51,7 +51,7 @@
   <script type="text/javascript">
     var Score = Parse.Object.extend("Score");
     var pointsGot = <?php if ($_POST["points"]) { 
-                                echo $_POST["points"]
+                                echo $_POST["points"];
                              } else {
                                  echo "0";
                              } ?>;
