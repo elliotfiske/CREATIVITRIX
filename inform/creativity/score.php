@@ -58,9 +58,9 @@
     Parse.initialize("lxZt13Rla0HPWFrXM7BQZB4PGzOcAC8z6Es01vtT", "n5wp5YZCYvIEM4BEpcN4XOCvjDWzvnd3kAfi54rW");
     var Score = Parse.Object.extend("Score");
     var pointsGot = <?php if ($_POST["points"]) { 
-                                echo $_POST["points"];
+                                echo "You got " + $_POST["points"] + " points!";
                              } else {
-                                 echo "0";
+                                 echo "";
                              } ?>;
     console.log("Points: " + pointsGot);
 
@@ -88,7 +88,7 @@
         });
 
         if (pointsGot) {
-            $("#hiscores").html("You are the " + place + "th most creative person to undergo the simulation!");
+            $("#urplace").html("You are the " + place + "th most creative person to undergo the simulation!");
         }
       }
     });
