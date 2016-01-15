@@ -26,7 +26,7 @@
     font-size: 13px;
 }
 
-#gameport {
+.container #gameport {
     left: 21.4em; !important
 }
 
