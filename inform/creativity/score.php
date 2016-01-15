@@ -50,7 +50,11 @@
 
   <script type="text/javascript">
     var Score = Parse.Object.extend("Score");
-    var pointsGot = <?php echo ($_POST["points"] || 0); ?>;
+    var pointsGot = <?php if ($_POST["points"]) { 
+                                echo $_POST["points"]
+                             } else {
+                                 echo "0";
+                             } ?>;
     console.log("Points: " + pointsGot);
 
     function genTunes() {
