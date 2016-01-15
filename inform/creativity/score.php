@@ -38,9 +38,9 @@
       <div class="col-md-12">
         <?php if ($_POST["points"]) {  ?>
         <h3 id="result">
-            
-            <?php echo "You got " + $_POST["points"] + " points!"; ?>
-            
+           You got 
+            <?php echo $_POST["points"]; ?>
+           points! 
         </h3>
         <?php } ?>
         <h2 id="urplace"></h2>
