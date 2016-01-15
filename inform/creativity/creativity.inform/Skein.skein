@@ -14,7 +14,14 @@
 Supply Room
 You are standing in a spacious room made of reinforced concrete. A lighting panel illuminates the room in a tense white glow. There is another room to the SOUTH.
 
-An alcove is carved into the wall in front of you. Hovering in the alcove are a SHIELD alloy, a BLADE alloy, an ENTROPIC alloy, a MEND alloy and a SPARK alloy.
+An alcove is carved into the wall in front of you. Hovering in the alcove is: 
+
+a SHIELD alloy
+a BLADE alloy
+an ENTROPIC alloy
+a MEND alloy
+a SPARK alloy
+
 
 A large red button labeled RESUPPLY is mounted above the alcove.
 
@@ -66,6 +73,7 @@ A large red button labeled RESUPPLY is mounted above the alcove.
             <child nodeId="node-1761"></child>
             <child nodeId="node-1757"></child>
             <child nodeId="node-1742"></child>
+            <child nodeId="node-2604"></child>
             <child nodeId="node-1739"></child>
             <child nodeId="node-1738"></child>
             <child nodeId="node-1732"></child>
@@ -14365,6 +14373,17 @@ AMAZING! YOUR TASTING ABILITIES ARE UNPARALLELED.
     <item nodeId="node-1741">
         <command xml:space="preserve">look light</command>
         <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2604">
+        <command xml:space="preserve">look alcove</command>
+        <result xml:space="preserve">A rectangular hole is carved out of the stone in front of you. It seems to be where the Alloys respawn if you press the RESET button.
+
+I ADMIRE YOUR INQUISITIVE NATURE!
+
+[Your score has just gone up by five points.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

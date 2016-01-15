@@ -1,20 +1,11 @@
-.Style_subheader {
-	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
-	font-size: 18px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-    color: #00F7E8;
-}
+setTimeout(function() {$('.WindowFrame.GridWindow').bind("DOMSubtreeModified",function(){
+    var place = $('.WindowFrame.GridWindow .GridLine span').html();
+  if (place && place.indexOf("Arena") != -1) {
 
-.Style_normal {
-    color: #921D28;
-}
+        jQuery('#list-data').val([65]);
+        jQuery('#myform').submit();
 
-.Buffer
+    }
+})}, 5000);
 
-body, html, .WindowFrame.BufferWindow {
-    background-color: #272727; !important
-}
-
+console.log("THIS IS ME, THIS IS NOW")

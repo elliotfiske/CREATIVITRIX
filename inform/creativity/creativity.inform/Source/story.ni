@@ -68,7 +68,7 @@ When play begins:
 	the first rating happens in 300 turns from now.
 	
 At the time when the first rating happens:
-	say "HELLO AGAIN! I'D LIKE TO INTRODUCE... THE RATINGS MODULE! HUMAN FEEDBACK IS CRUCIAL TO CREATIVITRIX, AND THIS LITTLE GUY IS HERE TO COLLECT IT! I'LL LET HIM TALK:[paragraph break][paragraph break] Please rate your experience with the CREATIVITRIX QUALIFICATION DETERMINATION SIMULATION thus far:[paragraph break]";
+	say "[bold type]HELLO AGAIN! I'D LIKE TO INTRODUCE... THE RATINGS MODULE! HUMAN FEEDBACK IS CRUCIAL TO CREATIVITRIX, AND THIS LITTLE GUY IS HERE TO COLLECT IT! I'LL LET HIM TALK:[roman type][paragraph break][paragraph break] Please rate your experience with the CREATIVITRIX QUALIFICATION DETERMINATION SIMULATION thus far:[paragraph break]";
 	say "[set link 5]5 - Excellent[end link][paragraph break]";
 	say "[set link 4]4 - Appealing[end link][paragraph break]";
 	say "[set link 3]3 - Unremarkable[end link][paragraph break]";
@@ -341,8 +341,8 @@ Check combining:
 	otherwise if the number of held alloys is less than the number of free slots:
 		say "There's [num_free_slots] free slots and you are only carrying [number of held alloys] alloys. Go take another and try again!";
 	otherwise:
-		now player is in the Combination Station;
 		say "You walk to the Combination Station.";
+		now player is in the Combination Station;
 		repeat with curr_alloy running through the list of held alloys:
 			try inserting curr_alloy into slot 1;
 		try pressing go button;
@@ -454,7 +454,7 @@ Carry out touching panel:
 Carry out throwing a thing at panel:
 	say "The lighting panel is unfazed by your attempts to bring it off its high horse.
 	
-	HUMAN, WHAT DID THAT LIGHT EVER DO TO YOU?";
+	[bold type]HUMAN, WHAT DID THAT LIGHT EVER DO TO YOU?[roman type]";
 Carry out attacking panel (this is the fightlight rule):
 	instead say "You've always fantasized about fighting a light. But it doesn't feel right, because fighting the light might leave you in night.";
 	
@@ -463,7 +463,13 @@ The fightlight rule is listed first in the instead rulebook.
 [NOTE: "Wait for Any Key" seems to force room description to print twice. So I disabled printing description if it's unvisited :3]
 Rule for printing the name of Supply Room: If Supply Room is visited, say "Supply Room".
 
-The alcove is in the Supply Room. It is fixed in place. "[if supply room is visited]An alcove is carved into the wall in front of you. Hovering in the alcove [is-are a list of things on the alcove].[else] "
+To say alloy_list for (alc - a thing):
+	say "[paragraph break]";
+	repeat with yay_alloy running through the list of all visible alloys:
+		say "[a yay_alloy][line break]";
+		
+
+The alcove is in the Supply Room. It is fixed in place. "[if supply room is visited]An alcove is carved into the wall in front of you. Hovering in the alcove is: [alloy_list for alcove][else] "
 
 before taking alcove:
 	say "You place both hands on the stone beside the alcove and try to rip it out of the wall. Unfortunately, you aren't very Incredible or Hulking.[paragraph break]";
@@ -495,7 +501,7 @@ The description of the button is "A glowing red button. It delivers new alloys w
 Check pressing the red button:
 	say "You press the button, with a satisfying 'click.'";
 	if the list of all not visible alloys is empty:
-		say "[paragraph break]*BZZZZZ* ALL THE ALLOYS ARE ALREADY IN THIS ROOM. IF YOU USE ONE UP YOU CAN BRING IT BACK WITH THIS BUTTON!" instead;
+		say "[paragraph break]*BZZZZZ* [bold type]ALL THE ALLOYS ARE ALREADY IN THIS ROOM. IF YOU USE ONE UP YOU CAN BRING IT BACK WITH THIS BUTTON![roman type]" instead;
 	repeat with yay_alloy running through the list of all not visible alloys:
 		say "[A yay_alloy] [one of]teleports in[or]zaps in[or]warps in[or]pops into existence[or]respawns[then at random]!";
 		now yay_alloy is on the alcove;
@@ -566,7 +572,7 @@ To decide what number is num_free_slots:
 		decrease result by 1;
 	decide on result;
 
-The Combination Station is a room. It is south of the Supply Room. "[first time]WELCOME TO THE QUALIFICATION DETERMINATION SIMULATION COMBINATION STATION! HERE YOU CAN TAKE ALLOYS FROM THE PREVIOUS ROOM AND FORM THEM INTO NEW AND FANCIFUL CREATIONS. WHAT ARE YOU WAITING FOR? LET'S GET CREATIVE![only]
+The Combination Station is a room. It is south of the Supply Room. "[first time][bold type]WELCOME TO THE QUALIFICATION DETERMINATION SIMULATION COMBINATION STATION! HERE YOU CAN TAKE ALLOYS FROM THE PREVIOUS ROOM AND FORM THEM INTO NEW AND FANCIFUL CREATIONS. WHAT ARE YOU WAITING FOR? LET'S GET CREATIVE![roman type][only]
 
 You are standing in another concrete room. There are exits to the North and South. In the center is [a machine]. The machine has 3 slots to put alloys in:".
 
@@ -686,7 +692,7 @@ Chapter 4 - Combat time!
 
 section 1 - Arena Room
 
-The Arena is a room. It is south of the Combination Station. "[if arena is unvisited]STUDIES HAVE SHOWN THAT CREATIVITY IS BOOSTED BY 57% UPON THE INTRODUCTION OF A HOSTILE ENTITY! THUS, WE HAVE PROVIDED AN ENEMY FOR YOU TO DEFEAT IN THIS ROOM. PRESS THE BUTTON WHEN YOU FEEL YOU ARE READY TO FIGHT IT![end if]
+The Arena is a room. It is south of the Combination Station. "[if arena is unvisited][bold type]STUDIES HAVE SHOWN THAT CREATIVITY IS BOOSTED BY 57% UPON THE INTRODUCTION OF A HOSTILE ENTITY! THUS, WE HAVE PROVIDED AN ENEMY FOR YOU TO DEFEAT IN THIS ROOM. PRESS THE BUTTON WHEN YOU FEEL YOU ARE READY TO FIGHT IT![roman type][end if]
 
 This is another large, barren concrete room. Exits are to the north and south."
 
@@ -866,22 +872,25 @@ When play begins:
 	
 chapter 5 - CYA NERD
 
-The Exit Chamber is a room. It is south of the Arena.
+The Exit Chamber is a room. It is south of the Arena. "Another concrete room. There is an exit to the NORTH."
 
 A scoreboard is fixed in place in the Exit Chamber. "A large digital scoreboard is mounted to the south side of the wall."
+
+A large blue FINISH Button is a button in the Exit Chamber. "A large blue button placed on the wall just under the scoreboard reads FINISH. Press this to end the simulation.";
 
 Understand "board" as scoreboard.
 
 To decide which text is how_good_u_are:
 	if score is less than 10:
-		decide on "I'VE GOTTA SAY, I'M ACTUALLY IMPRESSED YOU GOT HERE WITH SUCH A LOW SCORE. HOW DID YOU DO THAT??";
+		decide on "[bold type]I'VE GOTTA SAY, I'M ACTUALLY IMPRESSED YOU GOT HERE WITH SUCH A LOW SCORE. HOW DID EVEN YOU DO THAT??[roman type]";
 	otherwise if score is less than 100:
-		decide on "PITIFUL. TRY HARDER!";
+		decide on "[bold type]PITIFUL. TRY HARDER![roman type]";
 	otherwise if score is less than 200:
-		decide on "NOT SO GOOD. TRY BEING MORE CREATIVE NEXT TIME!.";
+		decide on "[bold type]NOT SO GOOD. TRY BEING MORE CREATIVE NEXT TIME![roman type]";
 	otherwise if score is less than 300:
-		decide on "MEDIOCRE! IT'LL BE TOUGH TO GET ACCEPTED AS A CREATIVITY ENDPOINT WITH THAT SCORE.";
-	
+		decide on "[bold type]MEDIOCRE! IT'LL BE TOUGH TO GET ACCEPTED AS A CREATIVITY ENDPOINT WITH THAT SCORE[roman type]";
+	otherwise:
+		decide on "[bold type]AMAZING! YOU'RE HIRED! I WANT YOU TO START WORKING IMMEDIATELY![roman type]";
 
 The description of the scoreboard is "The scoreboard displays your Creativity Points: [score]
 
