@@ -10,6 +10,10 @@ setTimeout(function() {$('.WindowFrame.GridWindow').bind("DOMSubtreeModified",fu
         jQuery('#myform').submit();
 
     }
+
+    if (place && place.indexOf("BACH") != -1) {
+        $("#song").get(0).play()
+    }
 })}, 5000);
 
 console.log("THIS IS ME, THIS IS NOW")
@@ -20,20 +24,21 @@ console.log("THIS IS ME, THIS IS NOW")
 //  copy in form:
 /*
 
+<div class="coverimage"><span><img src="../map.png"></span></div>
+
 <form action="http://www.elliotfiske.com/creative/CREATIVITRIX/inform/creativity/score.php" method="POST" target="_blank" id="myform" style="display: none;">
   <input type="text" name="points" id="point-input"/>
   <input type="submit" value="Submit">
 </form>
 
-enter me:
-
 <script src="../../jank.js" type="text/javascript"></script>
 
-Change map:
-
-<div class="coverimage"><span><img src="../map.png"></span></div>
+<audio id="song" style="display:none" controls>
+  <source src="../../classical.mp3" type="audio/mpeg">
+</audio>
 
 Do stylin:
 <link rel="stylesheet" href="../../MY_STUFF.css">
+
 
 */

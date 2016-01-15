@@ -602,7 +602,8 @@ Slot 3 contains nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1074"></child>
+        <children><child nodeId="node-2626"></child>
+            <child nodeId="node-1074"></child>
             <child nodeId="node-1028"></child>
         </children>
     </item>
@@ -629,8 +630,7 @@ Slot 3 contains nothing.
     </item>
     <item nodeId="node-1030">
         <command xml:space="preserve">z</command>
-        <result xml:space="preserve">rate 2 stars
-THANK YOU FOR YOUR FEEDBACK!
+        <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -644,7 +644,23 @@ THANK YOU FOR YOUR FEEDBACK!
     </item>
     <item nodeId="node-1031">
         <command xml:space="preserve">z</command>
-        <result xml:space="preserve">YOU'VE GOT TO ANSWER THE RATING MODULE'S QUESTION FIRST! LOOK AT THE POOR LITTLE GUY, ALL HE WANTS TO DO IS HELP!
+        <result xml:space="preserve">Time passes.
+
+HELLO AGAIN! I'D LIKE TO INTRODUCE... THE RATINGS MODULE! HUMAN FEEDBACK IS CRUCIAL TO CREATIVITRIX, AND THIS LITTLE GUY IS HERE TO COLLECT IT! I'LL LET HIM TALK:
+
+
+
+ Please rate your experience with the CREATIVITRIX QUALIFICATION DETERMINATION SIMULATION thus far:
+
+5 - Excellent
+
+4 - Appealing
+
+3 - Unremarkable
+
+2 - Lackluster
+
+1 - Truly Awful
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -655,7 +671,8 @@ THANK YOU FOR YOUR FEEDBACK!
     </item>
     <item nodeId="node-1032">
         <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
+        <result xml:space="preserve">rate 2 stars
+THANK YOU FOR YOUR FEEDBACK!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -669,7 +686,142 @@ THANK YOU FOR YOUR FEEDBACK!
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1034"></child>
+            <child nodeId="node-2661"></child>
         </children>
+    </item>
+    <item nodeId="node-2661">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2662"></child>
+        </children>
+    </item>
+    <item nodeId="node-2662">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2663"></child>
+        </children>
+    </item>
+    <item nodeId="node-2663">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2664"></child>
+        </children>
+    </item>
+    <item nodeId="node-2664">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2665"></child>
+        </children>
+    </item>
+    <item nodeId="node-2665">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2666"></child>
+        </children>
+    </item>
+    <item nodeId="node-2666">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2667"></child>
+        </children>
+    </item>
+    <item nodeId="node-2667">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2668"></child>
+        </children>
+    </item>
+    <item nodeId="node-2668">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2669"></child>
+        </children>
+    </item>
+    <item nodeId="node-2669">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2670"></child>
+        </children>
+    </item>
+    <item nodeId="node-2670">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2671"></child>
+        </children>
+    </item>
+    <item nodeId="node-2671">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2672"></child>
+        </children>
+    </item>
+    <item nodeId="node-2672">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2673"></child>
+        </children>
+    </item>
+    <item nodeId="node-2673">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2674"></child>
+        </children>
+    </item>
+    <item nodeId="node-2674">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2675"></child>
+        </children>
+    </item>
+    <item nodeId="node-2675">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+HUMAN! STUDIES HAVE SHOWN THAT CLASSICAL MUSIC ENHANCES CREATIVITY! PLEASE ENJOY THIS PIECE BY JOHANNE SEBASTIAN BACH.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1034">
         <command xml:space="preserve">x button</command>
@@ -1218,6 +1370,272 @@ That's not a verb I recognise.
         <result xml:space="preserve">On the table is a mouse.
 
 THAT table IS NOT BUTTS
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2626">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2627"></child>
+        </children>
+    </item>
+    <item nodeId="node-2627">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2628"></child>
+        </children>
+    </item>
+    <item nodeId="node-2628">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2629"></child>
+        </children>
+    </item>
+    <item nodeId="node-2629">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2630"></child>
+        </children>
+    </item>
+    <item nodeId="node-2630">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2631"></child>
+        </children>
+    </item>
+    <item nodeId="node-2631">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2632"></child>
+        </children>
+    </item>
+    <item nodeId="node-2632">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2633"></child>
+        </children>
+    </item>
+    <item nodeId="node-2633">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2634"></child>
+        </children>
+    </item>
+    <item nodeId="node-2634">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2635"></child>
+        </children>
+    </item>
+    <item nodeId="node-2635">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2636"></child>
+        </children>
+    </item>
+    <item nodeId="node-2636">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2637"></child>
+        </children>
+    </item>
+    <item nodeId="node-2637">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2638"></child>
+        </children>
+    </item>
+    <item nodeId="node-2638">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+HELLO AGAIN! I'D LIKE TO INTRODUCE... THE RATINGS MODULE! HUMAN FEEDBACK IS CRUCIAL TO CREATIVITRIX, AND THIS LITTLE GUY IS HERE TO COLLECT IT! I'LL LET HIM TALK:
+
+
+
+ Please rate your experience with the CREATIVITRIX QUALIFICATION DETERMINATION SIMULATION thus far:
+
+5 - Excellent
+
+4 - Appealing
+
+3 - Unremarkable
+
+2 - Lackluster
+
+1 - Truly Awful
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2639"></child>
+        </children>
+    </item>
+    <item nodeId="node-2639">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">rate 4 stars
+THANK YOU FOR YOUR FEEDBACK!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2640"></child>
+        </children>
+    </item>
+    <item nodeId="node-2640">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2641"></child>
+        </children>
+    </item>
+    <item nodeId="node-2641">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2642"></child>
+        </children>
+    </item>
+    <item nodeId="node-2642">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2643"></child>
+        </children>
+    </item>
+    <item nodeId="node-2643">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2644"></child>
+        </children>
+    </item>
+    <item nodeId="node-2644">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2645"></child>
+        </children>
+    </item>
+    <item nodeId="node-2645">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2646"></child>
+        </children>
+    </item>
+    <item nodeId="node-2646">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2647"></child>
+        </children>
+    </item>
+    <item nodeId="node-2647">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2648"></child>
+        </children>
+    </item>
+    <item nodeId="node-2648">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2649"></child>
+        </children>
+    </item>
+    <item nodeId="node-2649">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2650"></child>
+        </children>
+    </item>
+    <item nodeId="node-2650">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2651"></child>
+        </children>
+    </item>
+    <item nodeId="node-2651">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2652"></child>
+        </children>
+    </item>
+    <item nodeId="node-2652">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2653"></child>
+        </children>
+    </item>
+    <item nodeId="node-2653">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+HUMAN! STUDIES HAVE SHOWN THAT CLASSICAL MUSIC ENHANCES CREATIVITY! PLEASE ENJOY THIS PIECE BY JOHANNE SEBASTIAN BACH.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
@@ -17766,7 +18184,8 @@ GOOD THROWING ARM! I DON'T HAVE ARMS, SO THAT'S ESPECIALLY IMPRESSIVE.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2458"></child>
+        <children><child nodeId="node-2621"></child>
+            <child nodeId="node-2458"></child>
         </children>
     </item>
     <item nodeId="node-2458">
@@ -17846,6 +18265,100 @@ You can also see a green button labelled GO and Intern Jim here.
     <item nodeId="node-2465">
         <command xml:space="preserve">jim, attack me with needle</command>
         <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2621">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Combination Station
+WELCOME TO THE QUALIFICATION DETERMINATION SIMULATION COMBINATION STATION! HERE YOU CAN TAKE ALLOYS FROM THE PREVIOUS ROOM AND FORM THEM INTO NEW AND FANCIFUL CREATIONS. WHAT ARE YOU WAITING FOR? LET'S GET CREATIVE!
+
+You are standing in another concrete room. There are exits to the North and South. In the center is a vast machine labeled 'Combinator'. The machine has 3 slots to put alloys in:
+
+Slot 1 is empty.
+
+Slot 2 is empty.
+
+Slot 3 is empty.
+
+You can also see a green button labelled GO and Intern Jim here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2622"></child>
+        </children>
+    </item>
+    <item nodeId="node-2622">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Arena
+STUDIES HAVE SHOWN THAT CREATIVITY IS BOOSTED BY 57% UPON THE INTRODUCTION OF A HOSTILE ENTITY! THUS, WE HAVE PROVIDED AN ENEMY FOR YOU TO DEFEAT IN THIS ROOM. PRESS THE BUTTON WHEN YOU FEEL YOU ARE READY TO FIGHT IT!
+
+This is another large, barren concrete room. Exits are to the north and south.
+
+There is a hostile entity trapped by a force field on the other half of the room from you.
+
+The entity grins at you. Well, not so much "grin" as "curl back its lips and roll its eyes back into its head."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2623"></child>
+        </children>
+    </item>
+    <item nodeId="node-2623">
+        <command xml:space="preserve">press button</command>
+        <result xml:space="preserve">Suddenly, blue waves ripple across the air in the center of the room, revealing the barrier. It dissolves with a final shimmer.
+
+The entity makes a guttural clicking sound and scuttles across the floor towards you!
+
+The entity grabs you by both shoulders and unhinges its jaw, releasing a cloud of caustic black smoke. You cough and choke as the black smoke fills you with poison. It feels like your insides are on fire.
+
+You feel the entropic energy course course through your bloodstream, searing your insides!
+You take 6 damage.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2624"></child>
+        </children>
+    </item>
+    <item nodeId="node-2624">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Combination Station
+
+
+You are standing in another concrete room. There are exits to the North and South. In the center is a vast machine labeled 'Combinator'. The machine has 3 slots to put alloys in:
+
+Slot 1 is empty.
+
+Slot 2 is empty.
+
+Slot 3 is empty.
+
+You can also see a green button labelled GO and Intern Jim here.
+
+The healing helmet soothes your wounds. You regains 4 health.
+
+You feel the entropic energy course course through your bloodstream, searing your insides!
+You take 10 damage.
+
+HELLO AGAIN! I'D LIKE TO INTRODUCE... THE RATINGS MODULE! HUMAN FEEDBACK IS CRUCIAL TO CREATIVITRIX, AND THIS LITTLE GUY IS HERE TO COLLECT IT! I'LL LET HIM TALK:
+
+
+
+ Please rate your experience with the CREATIVITRIX QUALIFICATION DETERMINATION SIMULATION thus far:
+
+5 - Excellent
+
+4 - Appealing
+
+3 - Unremarkable
+
+2 - Lackluster
+
+1 - Truly Awful
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

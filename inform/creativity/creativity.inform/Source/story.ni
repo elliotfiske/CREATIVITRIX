@@ -65,8 +65,13 @@ The gave_points_for_bad_rating is a truth state variable. gave_points_for_bad_ra
 A rating is a kind of value. 5 stars specifies a rating.
 
 When play begins:
-	the first rating happens in 4 turns from now.
+	the first rating happens in 4 turns from now;
+	the music playing happens in 20 turns from now;
 	
+At the time when the music playing happens:
+	say "[bold type]HUMAN! STUDIES HAVE SHOWN THAT CLASSICAL MUSIC ENHANCES CREATIVITY! PLEASE ENJOY THIS PIECE BY JOHANNE SEBASTIAN BACH.[roman type]";
+	now playing_music is true;	
+
 At the time when the first rating happens:
 	say "[bold type]HELLO AGAIN! I'D LIKE TO INTRODUCE... THE RATINGS MODULE! HUMAN FEEDBACK IS CRUCIAL TO CREATIVITRIX, AND THIS LITTLE GUY IS HERE TO COLLECT IT! I'LL LET HIM TALK:[roman type][paragraph break][paragraph break] Please rate your experience with the CREATIVITRIX QUALIFICATION DETERMINATION SIMULATION thus far:[paragraph break]";
 	say "[set link 5]5 - Excellent[end link][paragraph break]";
@@ -146,9 +151,9 @@ After throwing a thing (called bball) at a button (called da_button):
 	
 Section 1 - Points for exploring
 
-Understand "hint" as a mistake ("TYPE 'COMBINE' WHILE CARRYING 3 ALLOYS TO AUTOMATICALLY COMIBNE THEM.
+Understand "hint" or "help" as a mistake ("TYPE 'COMBINE' WHILE CARRYING 3 ALLOYS TO AUTOMATICALLY COMBINE THEM.
 
-YOU CAN TELL INTERN JIM TO FOLLOW YOU INTO THE ARENA, AND HE'LL HELP YOU ATTACK THE ENEMY.");
+YOU CAN TELL INTERN JIM TO 'GO SOUTH' INTO THE ARENA, AND HE'LL HELP YOU ATTACK THE ENEMY. HE WILL ALSO TRY TO USE WEAPONS OR EQUIPMENT YOU GIVE HIM.");
 
 The futile to throw things at inanimate objects rule is not listed in any rulebook.
 The block throwing at rule is not listed in any rulebook.
@@ -370,10 +375,13 @@ After wearing a helmet:
 Every turn when a person (called healee) is wearing a healing helmet:
 	if the current hit points of healee are less than the maximum hit points of healee:
 		let healin be a random number between 3 and 6;
-		say "The healing helmet soothes [if the healee is the player]your[otherwise][the healee]'s[end if] wounds. [The healee] regains [healin] health.";
+		say "The healing helmet soothes [if the healee is the player]your[otherwise][the healee]'s[end if] wounds. [healin] health restored.";
 		increase the current hit points of healee by healin;
 		if the current hit points of healee are greater than the maximum hit points of healee:
 			now the current hit points of healee are the maximum hit points of healee;
+			
+To heal (healee - a person) by (hp - a number) points:
+	say "Healing [healee] by [hp] points!";
 
 [ALL THE ACTIONS FOR EACH]
 Carry out tasting a poison needle:
@@ -869,8 +877,10 @@ Check pressing the orange button:
 			say "AH YES, I REMEMBER WHEN YOU PRESSED THAT BUTTON AND FOUGHT A MONSTER! NOSTALGIA IS KEY TO CREATIVITY! HAVE SOME POINTS.";
 			increase score by 10;
 
+playing_music is a truth state variable. playing_music is false.
+
 When play begins:
-	now the left hand status line is "[location] – HP: [current hit points of player]/[maximum hit points of player]";
+	now the left hand status line is "[location] – HP: [current hit points of player]/[maximum hit points of player][if playing_music is true] Current Artist - BACH";
 	
 chapter 5 - CYA NERD
 
