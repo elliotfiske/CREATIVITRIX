@@ -59,6 +59,15 @@
 
     var query = new Parse.Query(Score);
     query.ascending("points");
+    
+    query.find({
+      success:function(list) {
+        // list contains post liked by the current user which have the title "I'm Hungry".
+        list.forEach(function(item) {
+            console.log("yes: " + item.get("points"));
+        });
+      }
+    });
 
     function genTunes() {
       var tune1 = tunez[Math.floor(Math.random()*tunez.length)];
