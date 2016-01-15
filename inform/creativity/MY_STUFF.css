@@ -1,6 +1,6 @@
 .Style_subheader {
 	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
-	font-size: 18px;
+	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -9,14 +9,47 @@
 }
 
 .Style_normal {
-    color: #921D28;
+    color: #158780;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.BufferLine .Style_input, .BufferWindow .Input.LineInput {
+    font-family: 'Open Sans', sans-serif;
+    color: white; !important
+}
+
+.Style_input + .Style_normal, .InvisibleCursor + .Style_normal {
+    font-size: 20px; !important
+}
+
+.BufferWindow .Input.LineInput {
+    font-size: 13px;
 }
 
 #gameport {
     left: 21.4em; !important
 }
 
-body, html, .WindowFrame.BufferWindow {
+.WindowFrame.GridWindow .Style_normal {
+	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    color: #00B51B; !important
+}
+
+body, html, .WindowFrame.BufferWindow, .WindowFrame.GridWindow {
     background-color: #272727; !important
 }
 
+.WindowFrame.BufferWindow {
+    top: 68px;
+}
+
+
+.WindowFrame.GridWindow {
+    bottom: 682px;
+    padding-top: 22px;
+}

@@ -25,16 +25,16 @@ When play begins:
 	say  "[bold type]WELCOME TO THE CREATIVITRIX QUALIFICATION DETERMINATION SIMULATION.[roman type] ";
 	say "[line break]{data indicate that subjects respond positively to parallel rhyming structure while in unfamiliar situations}.";
 	say "[paragraph break]";
-	say "[bold type]PLEASE GET COMFORTABLE[roman type] [paragraph break]{data indicate that subjects in an ergonomic seating position produce 14% better content and are less susceptible to thyroid problems} [paragraph break][bold type]AND PRESS ANY KEY TO CONTINUE.";
+	say "[bold type]PLEASE GET COMFORTABLE[roman type] [line break]{data indicate that subjects in an ergonomic seating position produce 14% better content and are less susceptible to thyroid problems} [line break][bold type]AND PRESS ANY KEY TO CONTINUE.";
 	Wait for any key;
 	say "[paragraph break]";
 	say "CONGRATULATIONS ON BEING ACCEPTED TO THE APPLICATION PROCESS FOR BECOMING A CERTIFIED CREATIVITY ENDPOINT FOR CREATIVITRIX.";
 	now the right hand status line is "CREATIVITY: [score]";
 	Wait for any key;
-	say "YOU WILL BE PLACED IN A STATE-OF-THE-ART TEXT-BASED SIMULATOR THAT GAUGES YOUR LEVEL OF CREATIVITY. YOU HAVE AN INNATE HUMAN INGENUITY AND ABILITY TO THINK 'OUTSIDE OF THE BOX'[roman type][paragraph break] {complement rating: genuine} [paragraph break][bold type]AND THIS SIMULATION WILL ALLOW CREATIVITRIX TO QUANTIFY IT.[paragraph break]";
+	say "YOU WILL BE PLACED IN A STATE-OF-THE-ART TEXT-BASED SIMULATOR THAT GAUGES YOUR LEVEL OF CREATIVITY. YOU HAVE AN INNATE HUMAN INGENUITY AND ABILITY TO THINK 'OUTSIDE OF THE BOX'[roman type][line break] {complement rating: genuine} [line break][bold type]AND THIS SIMULATION WILL ALLOW CREATIVITRIX TO QUANTIFY IT.[paragraph break]";
 	say "THE SIMULATION TRACKS YOUR LEVEL OF CREATIVITY THROUGH 'CREATIVITY POINTS.' DOING CREATIVE AND UNEXPECTED THINGS WILL RESULT IN AN INCREASE OF 'CREATIVITY POINTS.' TRY TO GET AS MANY AS YOU CAN!";
 	Wait for any key;
-	say "THE SIMULATION WILL BEGIN ONCE YOU PRESS ANY KEY. PRESS ANY KEY TO BEGIN THE SIMULATION.[paragraph break][roman type] {warning: redundant phrase detected}[paragraph break]";
+	say "THE SIMULATION WILL BEGIN ONCE YOU PRESS ANY KEY. PRESS ANY KEY TO BEGIN THE SIMULATION.[line break][roman type] {warning: redundant phrase detected}[paragraph break]";
 	Wait for any key;
 	Move player to Supply Room;
 	
@@ -863,3 +863,26 @@ Check pressing the orange button:
 
 When play begins:
 	now the left hand status line is "[location] – HP: [current hit points of player]/[maximum hit points of player]";
+	
+chapter 5 - CYA NERD
+
+The Exit Chamber is a room. It is south of the Arena.
+
+A scoreboard is fixed in place in the Exit Chamber. "A large digital scoreboard is mounted to the south side of the wall."
+
+Understand "board" as scoreboard.
+
+To decide which text is how_good_u_are:
+	if score is less than 10:
+		decide on "I'VE GOTTA SAY, I'M ACTUALLY IMPRESSED YOU GOT HERE WITH SUCH A LOW SCORE. HOW DID YOU DO THAT??";
+	otherwise if score is less than 100:
+		decide on "PITIFUL. TRY HARDER!";
+	otherwise if score is less than 200:
+		decide on "NOT SO GOOD. TRY BEING MORE CREATIVE NEXT TIME!.";
+	otherwise if score is less than 300:
+		decide on "MEDIOCRE! IT'LL BE TOUGH TO GET ACCEPTED AS A CREATIVITY ENDPOINT WITH THAT SCORE.";
+	
+
+The description of the scoreboard is "The scoreboard displays your Creativity Points: [score]
+
+Rating: [how_good_u_are]"

@@ -9535,14 +9535,17 @@ The entity gurgles softly to itself, and jams a finger into its own eye.
     </item>
     <item nodeId="node-1625">
         <command xml:space="preserve">s</command>
-        <result xml:space="preserve">You can't go that way.
-
-The entity ripples, as if a giant worm is crawling around just under the surface of its skin.
+        <result xml:space="preserve">
+Exit Chamber
+A large digital scoreboard is mounted to the south side of the wall.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1635"></child>
+            <child nodeId="node-2590"></child>
             <child nodeId="node-1626"></child>
+            <child nodeId="node-2599"></child>
+            <child nodeId="node-2595"></child>
             <child nodeId="node-2110"></child>
         </children>
     </item>
@@ -9633,6 +9636,32 @@ You can also see a green button labelled GO and Intern Jim here.
     <item nodeId="node-2116">
         <command xml:space="preserve">jim, jump</command>
         <result xml:space="preserve">Intern Jim has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2595">
+        <command xml:space="preserve">look scoreboard</command>
+        <result xml:space="preserve">The scoreboard displays your Creativity Points: 100
+
+Rating: NOT SO GOOD. TRY BEING MORE CREATIVE NEXT TIME!.
+
+I ADMIRE YOUR INQUISITIVE NATURE!
+
+[Your score has just gone up by one hundred and five points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2599">
+        <command xml:space="preserve">look scoreboar</command>
+        <result xml:space="preserve">The scoreboard displays your Creativity Points: 100
+
+Rating: NOT SO GOOD. TRY BEING MORE CREATIVE NEXT TIME!.
+
+I ADMIRE YOUR INQUISITIVE NATURE!
+
+[Your score has just gone up by one hundred and five points.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -9740,6 +9769,30 @@ The entity ripples, as if a giant worm is crawling around just under the surface
         <command xml:space="preserve">press button</command>
         <result xml:space="preserve">The entity ripples, as if a giant worm is crawling around just under the surface of its skin.
 .
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2590">
+        <command xml:space="preserve">look board</command>
+        <result xml:space="preserve">The scoreboard displays your Creativity Points: 0
+
+Rating: I'VE GOTTA SAY, I'M ACTUALLY IMPRESSED YOU GOT HERE WITH SUCH A LOW SCORE. I'LL GIVE YOU SOME POINTS FOR THAT.
+
+I ADMIRE YOUR INQUISITIVE NATURE!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2591"></child>
+        </children>
+    </item>
+    <item nodeId="node-2591">
+        <command xml:space="preserve">look board</command>
+        <result xml:space="preserve">The scoreboard displays your Creativity Points: 5
+
+Rating: PRETTY GOOD.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
