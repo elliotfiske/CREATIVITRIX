@@ -5,7 +5,7 @@
   <?php //include('../analyticstracking.php'); ?>
   <meta charset="utf-8">
 
-  <title>BEST PEP TUNE</title>
+  <title>CREATIVITRIX SAYS: HAVE A NICE DAY!</title>
   <meta name="description" content="the midterms never bothered me anyways">
   <meta name="viewport" content="width=device-width">
   <!--link rel="stylesheet" href="css/reset.css">
@@ -36,13 +36,13 @@
 
       <div class="col-md-12">
         <h1>
-          CHOOSE THE BETTER PEP TUNE
+            CREATIVITY SCOREBOARD
         </h1>
       </div>
 
       <div class="col-md-12">
-        <h3>
-          Not all pep tunes are created equal
+        <h3 id="result">
+            
         </h3>
       </div>
 
