@@ -45,6 +45,12 @@
         <?php } ?>
       </div>
 
+      <div class="col-md-12">
+        <ol id="hiscores">
+
+        </ol>
+        </div>
+
     </div><!-- /.container -->
 
   <script type="text/javascript">
@@ -65,6 +71,13 @@
         // list contains post liked by the current user which have the title "I'm Hungry".
         list.forEach(function(item) {
             console.log("yes: " + item.get("points"));
+
+            var li = $("<li><span>" + item.get("points") + "</span></li>");
+
+            $("#hiscores").append(li);
+
+            //$("span",li).text(item.Username);
+            //$("span",li).attr("href", "http://example.com" + item.UserID);
         });
       }
     });
