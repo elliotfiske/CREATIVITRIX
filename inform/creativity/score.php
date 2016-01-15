@@ -50,7 +50,7 @@
 
   <script type="text/javascript">
     var Score = Parse.Object.extend("Score");
-    var pointsGot = <?php echo $_POST["points"]; ?>;
+    var pointsGot = <?php echo ($_POST["points"] || 0); ?>;
     console.log("Points: " + pointsGot);
 
     function genTunes() {
@@ -63,9 +63,9 @@
       $("#choiceText2").text(tune2);
     }
 
-    function compared(name1, name2) {
+    if (pointsGot) {
       var newScore = new Score();
-      newScore.save({points: 20}).then(function(object) {
+      newScore.save({points: pointsGot}).then(function(object) {
         console.log("nice job dunky");
       });
     }
