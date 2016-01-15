@@ -9380,7 +9380,67 @@ You can also see a green button labelled GO and Intern Jim here.
             <child nodeId="node-1614"></child>
             <child nodeId="node-1613"></child>
             <child nodeId="node-1612"></child>
+            <child nodeId="node-2614"></child>
         </children>
+    </item>
+    <item nodeId="node-2614">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2615"></child>
+        </children>
+    </item>
+    <item nodeId="node-2615">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2616"></child>
+        </children>
+    </item>
+    <item nodeId="node-2616">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2617"></child>
+        </children>
+    </item>
+    <item nodeId="node-2617">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2618"></child>
+        </children>
+    </item>
+    <item nodeId="node-2618">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+HELLO AGAIN! I'D LIKE TO INTRODUCE... THE RATINGS MODULE! HUMAN FEEDBACK IS CRUCIAL TO CREATIVITRIX, AND THIS LITTLE GUY IS HERE TO COLLECT IT! I'LL LET HIM TALK:
+
+
+
+ Please rate your experience with the CREATIVITRIX QUALIFICATION DETERMINATION SIMULATION thus far:
+
+5 - Excellent
+
+4 - Appealing
+
+3 - Unremarkable
+
+2 - Lackluster
+
+1 - Truly Awful
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1612">
         <command xml:space="preserve">x machine</command>
