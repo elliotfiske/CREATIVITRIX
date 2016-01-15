@@ -2,7 +2,7 @@ setTimeout(function() {$('.WindowFrame.GridWindow').bind("DOMSubtreeModified",fu
     var place = $('.WindowFrame.GridWindow .GridLine span').html();
   if (place && place.indexOf("Arena") != -1) {
 
-        jQuery('#list-data').val([65]);
+        jQuery('#point-input').val(65);
         jQuery('#myform').submit();
 
     }
