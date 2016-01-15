@@ -15,11 +15,6 @@
   <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
 
   <!-- Bower junk -->
-  <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
-  <link rel="import" href="bower_components/core-scaffold/core-scaffold.html">
-  <link rel="import" href="bower_components/core-item/core-item.html"> 
-  <link rel="import" href="bower_components/paper-input/paper-input.html">
-  <link rel="import" href="bower_components/paper-fab/paper-fab.html">
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
@@ -41,9 +36,13 @@
       </div>
 
       <div class="col-md-12">
+        <?php if ($_POST["points"]) {  ?>
         <h3 id="result">
             
+            <?php echo "You got " + $_POST["points"] + " points!"; ?>
+            
         </h3>
+        <?php } ?>
       </div>
 
     </div><!-- /.container -->
@@ -57,6 +56,9 @@
                                  echo "0";
                              } ?>;
     console.log("Points: " + pointsGot);
+
+    var query = new Parse.Query(Score);
+    query.ascending("points");
 
     function genTunes() {
       var tune1 = tunez[Math.floor(Math.random()*tunez.length)];
