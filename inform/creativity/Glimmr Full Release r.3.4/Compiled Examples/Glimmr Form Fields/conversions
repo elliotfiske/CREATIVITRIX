@@ -1,0 +1,10 @@
+* //21E91FB0-021A-4222-9144-ADF6753A82FC// conversions
+RGB Hex Decimal Color-Picker
+
+Tickertape record of operations:
+
+RGB (225, 0, 0) :: #E10000 :: 14745600
+RGB (225, 22, 0) :: #E11600 :: 14751232
+RGB (255, 22, 0) :: #FF1600 :: 16717312
+RGB (255, 255, 0) :: #FFFF00 :: 16776960
+RGB (255, 255, 255) :: #FFFFFF :: 16777215

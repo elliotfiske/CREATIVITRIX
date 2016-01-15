@@ -1,0 +1,94 @@
+I. ABOUT
+========
+
+Glimmr (GLulx Image and MultiMedia Resources) is a framework of extensions for the Inform 7 interactive fiction authoring system.
+
+Inform 7 can compile to the Glulx virtual machine, which supports complex windowed layouts, graphics, sound, mouse input, and more. Glimmr is intended to make these features—-particularly graphics and mouse input-—easily accessible to Inform 7 game authors.
+
+In its simplest form, Glimmr supplies commands for drawing images files (PNG or JPEG), simple primitives (rectangles, boxes, lines), arbitrary bitmap images, and painted text. Through additional extensions, Glimmr also provides a full system for managing display of complex, dynamic compositions in a graphics window. These might include maps that progressively reveal themselves as the player moves through them, card games, etc. Glimmr Canvas Animation also provides a fully featured framework for creating multicomponent animations.
+
+Games created with Glimmr will be best played using the following Glulx VM interpreters:
+
+Gargoyle (Linux, Windows, and Mac OS X)
+Zoom (Mac OS X, *nix)
+Windows Glulxe (Windows)
+
+
+
+II. GLIMMR EXTENSIONS
+=====================
+
+Some Glimmr Extensions require one of the core Glimmr extensions in order to work. Others can work independently (though all require Flexible Windows by Jon Ingold), but gain enhanced capabilities when used in conjunction with other Glimmr extensions.
+
+
+Independent extensions
+----------------------
+
+These extensions can be used independently of Glimmr, but are enhanced when used with other Glimmr extensions. Both require Flexible Windows by Jon Ingold.
+
+- Glimmr Graphic Hyperlinks
+- Glimmr Simple Graphics Window
+
+
+Core Glimmr Extensions
+----------------------
+
+These are the most central Glimmr extensions. Glimmr Drawing Commands is the core of Glimmr, providing basic I7-level interfaces to Glulx's drawing capabilities. Glimmr Canvas-Based Drawing builds on Drawing Commands to offer a full system for scaling, centering, and otherwise managing the display of multicomponent graphical compositions.
+
+- Glimmr Drawing Commands
+- Glimmr Canvas-Based Drawing
+
+
+Dependent Extensions
+--------------------
+
+These extensions require one or both of the core Glimmr extensions in order to function.
+
+- Glimmr Canvas Animation
+
+- Glimmr Debugging Console
+- Glimmr Canvas Editor
+- Glimmr Automap
+- Glimmr Form Fields
+- Glimmr Bitmap Font
+- Glimmr Image Font
+- Glimmr Animation Fader - Black
+- Glimmr Automap Tileset
+
+
+
+III. CONTENTS OF THIS ARCHIVE
+=============================
+
+This archive contains the following directories:
+
+- All of the current Glimmr extensions: Some of the extensions require external image files, and these are also included in the extensions directory, in their own directories. It is recommended that you lock these files and store them alongside the extensions in your I7 extensions folder, copying them to your projects as needed.
+- Compiled Examples: All of the code examples from the Glimmr extensions as compiled gblorb. Open these if you are interested in the example by don't want to build it yourself.
+- Assets for Examples: All of the image files needed to build the example code included in the Glimmr extensions. Copy or move the images to the Materials->Figures folder of your project.
+- Basic Floorplan Toolkit: see the Read Me file in this directory for more information.
+
+
+
+IV. CONTACT INFO
+================
+
+Comments: ek.temple@gmail.com.
+
+Bug reports: http://code.google.com/p/glimmr-i7x/issues/list.
+
+Questions about Glimmr: Please consider posting to the infiction forum (http://www.intfiction.org/forum/). This allows questions to be public, where the answers can also benefit others. If you prefer not to use the forum, please contact me directly at ek.temple@gmail.com.
+
+
+
+V. LICENSE
+==========
+
+Glimmr code is released under a Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/us/). You are free to use it in both commercial and non-commercial works, provided that you provide attribution. Inform 7's standard extension reporting is sufficient to meet the attribution requirement.
+
+
+
+VI. REVISIONS
+=============
+
+Revised 11/22/2011.
+Revised 1/3/2011.

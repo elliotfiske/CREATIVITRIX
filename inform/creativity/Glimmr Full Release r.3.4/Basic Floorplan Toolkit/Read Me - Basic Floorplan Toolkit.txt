@@ -1,0 +1,80 @@
+I. ABOUT
+========
+
+The Basic Floorplan Toolkit is an application of the Glimmr Canvas Editor, a GUI graphics editor built using the Glimmr system of Inform 7 extensions.
+
+Basic Floorplan allows you to visually design a map to be displayed within an Glulx Inform game. It generates I7 source code for use with the Glimmr Canvas-Based Drawing extension. To make use of the output, you will need the images provided in the Assets folder.
+
+A tutorial on using the Toolkit can be found at:
+
+http://glimmr.wordpress.com/2010/08/29/basic-floorplan-toolkit-tutorial/
+
+
+
+II. BASIC INSTRUCTIONS
+======================
+
+There are four simple steps to using the toolkit:
+
+1. Use Basic Floorplan Toolkit.gblorb to lay out your design.
+2. Export the source code for your map (use the GENERATE SOURCE CODE command). The source code file will be written to your hard drive, usually either in the same folder as Basic Floorplan Toolkit.gblorb or in your home folder.
+3. Incorporate the source code into your project, following the instructions found in the file.
+4. Copy the images found in the Assets folder to your project's Materials->Figures folder (you may have to create this).
+
+Detailed instructions for actually using the GUI editor can be found in the documentation for the Glimmr Canvas Editor extension.
+
+
+
+III. TAGS
+=========
+
+The Basic Floorplan Toolkit includes special support for "tags". Using tags allows you to make your map dynamic--rooms will be revealed only as the player moves through them. Just tag each element you place in the editor with the name of a room (you can select and tag multiple images with the same tag at once). Note that this must exactly match the name of a room in your project. To tag an image, select it and type TAG <room name> at the command line, e.g. "TAG West of House". Note that only sprites of the sub-kind "room-sprite" will respond when tagged in this way. The Toolkit automatically sets all room-related images as room-sprites.
+
+
+
+IV. RENAMING
+============
+
+The sprites included with the Toolkit will have names like "Orthogonal_Room_Square_1". If you prefer to use a different naming scheme, you can type RENAME <new name> to rename your sprites. Be sure to give each sprite a unique name. If you use one of the "gamepiece" images in your composition, you will need to rename it "PC Avatar" in order for the Basic Floorplan Toolkit's built-in functionality to work. See the tutorial linked above for more information.
+
+
+
+V. CONTACT INFO
+===============
+
+Comments: ek.temple@gmail.com.
+
+Bug reports: http://code.google.com/p/glimmr-i7x/issues/list.
+
+Questions: Please consider posting to either the rec.arts.int-fiction newsgroup or at the intfiction forum (http://www.intfiction.org/forum/). This allows questions to be public, where the answers can also benefit others. If you prefer not to use either of these forums, please contact me directly at ek.temple@gmail.com.
+
+
+
+VI. LICENSE
+===========
+
+The graphics files provided with the Toolkit may be used freely for any project, whether free or commercial. Please feel free to modify them, or to mix them with other graphics. 
+
+
+
+VII. Known Bugs
+===============
+
+Typing an abbreviated command of the form SCALE <real number> to set the scaling factor for a selected element, or (when no element is selected) to set the default scaling factor: This will fail when the scaling factor provided is greater than 0.9999; the problem is a bug in Inform, and should be fixed with the next update of the program. In the meantime, use the scaling buttons in the GUI or the full forms of the desired commands to set scaling factors. Example of correct followed by failed output for setting the default scaling factor:
+
+> scale 0.8000
+Newly created elements will be scaled at a ratio of 0.8000.
+
+
+> scale 1.0000
+(horizontally)
+Indicate the ratio at which the element should be scaled horizontally. The ratio must be expressed as 
+a decimal with four-digit precision; e.g., 0.8000 represents 80%.
+[Scaling canceled.]
+
+
+
+VIII. VERSION
+=============
+
+Revised 1/3/2011.
