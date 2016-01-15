@@ -43,10 +43,11 @@
             
         </h3>
         <?php } ?>
+        <h2 id="urplace"></h2>
       </div>
 
       <div class="col-md-12">
-        <ol id="hiscores">
+        <ol id="hiscores" style="font-size: 36px;">
 
         </ol>
         </div>
@@ -64,13 +65,19 @@
     console.log("Points: " + pointsGot);
 
     var query = new Parse.Query(Score);
-    query.ascending("points");
+    query.descending("points");
     
+    var place = 1;
+
     query.find({
       success:function(list) {
         // list contains post liked by the current user which have the title "I'm Hungry".
         list.forEach(function(item) {
             console.log("yes: " + item.get("points"));
+
+            if (item.get("points") > pointsGot) {
+                place++;
+            }
 
             var li = $("<li><span>" + item.get("points") + "</span></li>");
 
@@ -79,6 +86,8 @@
             //$("span",li).text(item.Username);
             //$("span",li).attr("href", "http://example.com" + item.UserID);
         });
+
+        $("#hiscores").html("You are the " + place + "th most creative person to undergo the simulation!");
       }
     });
 
