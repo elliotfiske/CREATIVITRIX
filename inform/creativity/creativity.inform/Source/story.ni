@@ -914,4 +914,4 @@ Check pressing the FINISH button:
 	say "YOU FINISHED THE GAME FOR NOW! I'M EVENTUALLY GOING TO PUT AN 'END STORY' HERE BUT I HAVEN'T YET. JUST ENJOY YOUR SCORE ON THE SCOREBOARD AND CHILL OUT FOR NOW. YOU CAN KEEP PLAYING IF YOU WANT I GUESS.";
 	say "-------------------";
 	wait for any key;
-	now the left hand status line is "POST-GAME BLISS";
+	[now the left hand status line is "POST-GAME BLISS";]

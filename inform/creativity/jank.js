@@ -1,20 +1,39 @@
-setTimeout(function() {$('.WindowFrame.GridWindow').bind("DOMSubtreeModified",function(){
-    var place = $('.WindowFrame.GridWindow .GridLine span').html();
-  if (place && place.indexOf("DONE") != -1) {
-
-        var topText = $(".WindowFrame.GridWindow .GridLine span").html();
-        var matches = topText.match(/\d+\s*$/); // 123456
-        var points = parseInt(matches[0]);
-
-        jQuery('#point-input').val(points);
-        jQuery('#myform').submit();
-
+function blah() {
+    if ($('.WindowFrame.GridWindow').length == 0) {
+        setTimeout(blah, 1000);
+            console.log("BAD: trying again");
+        return;
     }
 
-    if (place && place.indexOf("BACH") != -1) {
-        $("#song").get(0).play()
-    }
-})}, 5000);
+    $('.WindowFrame.GridWindow').bind("DOMSubtreeModified",function(){
+            console.log("We're in...");
+        var place = $('.WindowFrame.GridWindow .GridLine span').html();
+
+        if (!place) {
+            console.log("BAD: trying again");
+        }
+        else {
+            console.log("GREAT SUCCESS!");
+        }
+
+        if (place && place.indexOf("DONE") != -1) {
+
+            var topText = $(".WindowFrame.GridWindow .GridLine span").html();
+            var matches = topText.match(/\d+\s*$/); // 123456
+            var points = parseInt(matches[0]);
+
+            jQuery('#point-input').val(points);
+            jQuery('#myform').submit();
+
+        }
+
+        if (place && place.indexOf("BACH") != -1) {
+            $("#song").get(0).play();
+        }
+    });
+}
+
+setTimeout(blah, 1000);
 
 console.log("THIS IS ME, THIS IS NOW")
 
@@ -42,3 +61,4 @@ Do stylin:
 
 
 */
+
