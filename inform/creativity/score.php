@@ -58,9 +58,9 @@
     Parse.initialize("lxZt13Rla0HPWFrXM7BQZB4PGzOcAC8z6Es01vtT", "n5wp5YZCYvIEM4BEpcN4XOCvjDWzvnd3kAfi54rW");
     var Score = Parse.Object.extend("Score");
     var pointsGot = <?php if ($_POST["points"]) { 
-                                echo "You got " + $_POST["points"] + " points!";
+                                echo $_POST["points"];
                              } else {
-                                 echo "";
+                                 echo "0";
                              } ?>;
     console.log("Points: " + pointsGot);
 
