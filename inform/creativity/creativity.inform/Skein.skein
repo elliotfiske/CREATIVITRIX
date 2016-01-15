@@ -9558,7 +9558,11 @@ The entity gurgles softly to itself, and jams a finger into its own eye.
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Exit Chamber
+Another concrete room. There is an exit to the NORTH.
+
 A large digital scoreboard is mounted to the south side of the wall.
+
+A large blue button placed on the wall just under the scoreboard reads FINISH. Press this to end the simulation.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -9568,7 +9572,15 @@ A large digital scoreboard is mounted to the south side of the wall.
             <child nodeId="node-2599"></child>
             <child nodeId="node-2595"></child>
             <child nodeId="node-2110"></child>
+            <child nodeId="node-2612"></child>
         </children>
+    </item>
+    <item nodeId="node-2612">
+        <command xml:space="preserve">push button</command>
+        <result xml:space="preserve">-------------------YOU FINISHED THE GAME FOR NOW! I'M EVENTUALLY GOING TO PUT AN "END STORY" HERE BUT I HAVEN'T YET. JUST ENJOY YOUR SCORE ON THE SCOREBOARD AND CHILL OUT FOR NOW. YOU CAN KEEP PLAYING IF YOU WANT I GUESS.
+-------------------
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-2110">
         <command xml:space="preserve">n</command>
@@ -14265,6 +14277,27 @@ You can also see Intern Jim and a green button labelled GO here.
     <item nodeId="node-2607">
         <command xml:space="preserve">pop a squat</command>
         <result xml:space="preserve">YOU CROUCH DOWN ON YOUR CALVES AND UNLEASH YOUR INNER SLAV.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2608"></child>
+        </children>
+    </item>
+    <item nodeId="node-2608">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Supply Room
+You are standing in a spacious room made of reinforced concrete. A lighting panel illuminates the room in a tense white glow. There is another room to the SOUTH.
+
+An alcove is carved into the wall in front of you. Hovering in the alcove is: 
+
+a SHIELD alloy
+a BLADE alloy
+an ENTROPIC alloy
+a MEND alloy
+a SPARK alloy
+
+
+A large red button labeled RESUPPLY is mounted above the alcove.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

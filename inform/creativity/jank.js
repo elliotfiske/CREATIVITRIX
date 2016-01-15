@@ -1,6 +1,6 @@
 setTimeout(function() {$('.WindowFrame.GridWindow').bind("DOMSubtreeModified",function(){
     var place = $('.WindowFrame.GridWindow .GridLine span').html();
-  if (place && place.indexOf("Arena") != -1) {
+  if (place && place.indexOf("DONE") != -1) {
 
         var topText = $(".WindowFrame.GridWindow .GridLine span").html();
         var matches = topText.match(/\d+\s*$/); // 123456

@@ -77,6 +77,10 @@
 
             if (item.get("points") > pointsGot) {
                 place++;
+
+                var li = $("<li><span>" + pointsGot + "</span></li>");
+
+                $("#hiscores").append(li);
             }
 
             var li = $("<li><span>" + item.get("points") + "</span></li>");
