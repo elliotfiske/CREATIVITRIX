@@ -87,7 +87,9 @@
             //$("span",li).attr("href", "http://example.com" + item.UserID);
         });
 
-        $("#hiscores").html("You are the " + place + "th most creative person to undergo the simulation!");
+        if (pointsGot) {
+            $("#hiscores").html("You are the " + place + "th most creative person to undergo the simulation!");
+        }
       }
     });
 
