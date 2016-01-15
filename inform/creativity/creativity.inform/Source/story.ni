@@ -318,6 +318,8 @@ Carry out smelling a SPARK alloy:
 	
 Understand "sniff" as smelling.
 
+Understand "pop a squat" as a mistake ("YOU CROUCH DOWN ON YOUR CALVES AND UNLEASH YOUR INNER SLAV.").
+
 Section 2 - Combinations
 
 Combining is an action applying to nothing. Understand "combine" as combining.

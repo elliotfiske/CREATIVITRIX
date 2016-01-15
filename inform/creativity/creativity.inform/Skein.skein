@@ -77,6 +77,7 @@ A large red button labeled RESUPPLY is mounted above the alcove.
             <child nodeId="node-1739"></child>
             <child nodeId="node-1738"></child>
             <child nodeId="node-1732"></child>
+            <child nodeId="node-2607"></child>
             <child nodeId="node-1726"></child>
             <child nodeId="node-1723"></child>
             <child nodeId="node-1721"></child>
@@ -5146,12 +5147,9 @@ You can also see a green button labelled GO here.
     </item>
     <item nodeId="node-1363">
         <command xml:space="preserve">take shield, blade and entropic</command>
-        <result xml:space="preserve">SHIELD alloy: Test this
-Taken.
-BLADE alloy: Test 
-Taken.
-ENTROPIC alloy: Test 
-Taken.
+        <result xml:space="preserve">SHIELD alloy: Taken.
+BLADE alloy: Taken.
+ENTROPIC alloy: Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -5160,11 +5158,12 @@ Taken.
     </item>
     <item nodeId="node-1364">
         <command xml:space="preserve">combine</command>
-        <result xml:space="preserve">
-Combination Station
-WELCOME TO THE QUALIFICATION DETERMINATION SIMULATION COMBINATION STATION! HERE YOU CAN TAKE ELEMENTS FROM THE PREVIOUS ROOM AND FORM THEM INTO NEW AND FANCIFUL CREATIONS. WHAT ARE YOU WAITING FOR? LET'S GET CREATIVE!
+        <result xml:space="preserve">You walk to the Combination Station.
 
-You are standing in another concrete room. There are exits to the North and South. In the center is a vast machine labeled 'Combinator'. The machine has 3 slots to put elements in:
+Combination Station
+WELCOME TO THE QUALIFICATION DETERMINATION SIMULATION COMBINATION STATION! HERE YOU CAN TAKE ALLOYS FROM THE PREVIOUS ROOM AND FORM THEM INTO NEW AND FANCIFUL CREATIONS. WHAT ARE YOU WAITING FOR? LET'S GET CREATIVE!
+
+You are standing in another concrete room. There are exits to the North and South. In the center is a vast machine labeled 'Combinator'. The machine has 3 slots to put alloys in:
 
 Slot 1 is empty.
 
@@ -5172,13 +5171,27 @@ Slot 2 is empty.
 
 Slot 3 is empty.
 
-You can also see a green button labelled GO here.
+You can also see a green button labelled GO and Intern Jim here.
 
 You put the SHIELD alloy into slot 1.
 
 Slot 1 is full, so let's put BLADE alloy in slot 2. You put the BLADE alloy into slot 2.
 
 Slot 1 is full, so let's put ENTROPIC alloy in slot 2. Slot 2 is full, so let's put ENTROPIC alloy in slot 3. You put the ENTROPIC alloy into slot 3.
+
+Ingredient list: BLADE alloy, ENTROPIC alloy and SHIELD alloy
+
+The SHIELD alloy quickly wraps itself around the volatile ENTROPIC alloy. Then, the BLADE alloy adds dangerous-looking spikes to the outside of the resulting ball.
+
+
+AMAZING! THAT'S AN INCREDIBLE SPIKED GRENADE YOU'VE JUST CREATED! I'M AWARDING YOU 20 CREATIVITY POINTS FOR IT.
+
+
+
+
+You now carry a brand-new spiked grenade.
+
+[Your score has just gone up by twenty points.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -14245,6 +14258,13 @@ Slot 2 is empty.
 Slot 3 is empty.
 
 You can also see Intern Jim and a green button labelled GO here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2607">
+        <command xml:space="preserve">pop a squat</command>
+        <result xml:space="preserve">YOU CROUCH DOWN ON YOUR CALVES AND UNLEASH YOUR INNER SLAV.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
