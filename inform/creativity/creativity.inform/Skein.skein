@@ -51,6 +51,7 @@ A large red button labeled RESUPPLY is mounted above the alcove.
             <child nodeId="node-1959"></child>
             <child nodeId="node-2040"></child>
             <child nodeId="node-2338"></child>
+            <child nodeId="node-2676"></child>
             <child nodeId="node-1933"></child>
             <child nodeId="node-1931"></child>
             <child nodeId="node-1928"></child>
@@ -65,6 +66,7 @@ A large red button labeled RESUPPLY is mounted above the alcove.
             <child nodeId="node-1902"></child>
             <child nodeId="node-1900"></child>
             <child nodeId="node-1821"></child>
+            <child nodeId="node-2758"></child>
             <child nodeId="node-1820"></child>
             <child nodeId="node-2259"></child>
             <child nodeId="node-2267"></child>
@@ -72,6 +74,7 @@ A large red button labeled RESUPPLY is mounted above the alcove.
             <child nodeId="node-1818"></child>
             <child nodeId="node-1761"></child>
             <child nodeId="node-1757"></child>
+            <child nodeId="node-2741"></child>
             <child nodeId="node-1742"></child>
             <child nodeId="node-2604"></child>
             <child nodeId="node-1739"></child>
@@ -15094,6 +15097,65 @@ You are standing in a modern-looking laboratory.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-2741">
+        <command xml:space="preserve">listen to wall</command>
+        <result xml:space="preserve">You hear the soft hum of Air Conditioning.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2742"></child>
+        </children>
+    </item>
+    <item nodeId="node-2742">
+        <command xml:space="preserve">listen to wall</command>
+        <result xml:space="preserve">You hear a distant refrigerator running.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2743"></child>
+        </children>
+    </item>
+    <item nodeId="node-2743">
+        <command xml:space="preserve">listen to wall</command>
+        <result xml:space="preserve">You hear a cheap cricket sound effect from far off in the distance.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2744"></child>
+        </children>
+    </item>
+    <item nodeId="node-2744">
+        <command xml:space="preserve">listen to wall</command>
+        <result xml:space="preserve">You hear someone whisper "Nyeh heh heh!"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2745"></child>
+        </children>
+    </item>
+    <item nodeId="node-2745">
+        <command xml:space="preserve">listen to wall</command>
+        <result xml:space="preserve">You hear the sound of your own heartbeat.
+
+HELLO AGAIN! I'D LIKE TO INTRODUCE... THE RATINGS MODULE! HUMAN FEEDBACK IS CRUCIAL TO CREATIVITRIX, AND THIS LITTLE GUY IS HERE TO COLLECT IT! I'LL LET HIM TALK:
+
+
+
+ Please rate your experience with the CREATIVITRIX QUALIFICATION DETERMINATION SIMULATION thus far:
+
+5 - Excellent
+
+4 - Appealing
+
+3 - Unremarkable
+
+2 - Lackluster
+
+1 - Truly Awful
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1757">
         <command xml:space="preserve">listen button</command>
         <result xml:space="preserve">I only understood you as far as wanting to listen.
@@ -15163,7 +15225,8 @@ AMAZING! YOUR SNIFFING ABILITIES ARE UNPARALLELED.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1764"></child>
+        <children><child nodeId="node-2726"></child>
+            <child nodeId="node-1764"></child>
         </children>
     </item>
     <item nodeId="node-1764">
@@ -15560,6 +15623,158 @@ You can also see a green button labelled GO and Intern Jymm here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-2726">
+        <command xml:space="preserve">hear</command>
+        <result xml:space="preserve">What do you want to hear?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2727"></child>
+        </children>
+    </item>
+    <item nodeId="node-2727">
+        <command xml:space="preserve">liste</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2728"></child>
+        </children>
+    </item>
+    <item nodeId="node-2728">
+        <command xml:space="preserve">listen</command>
+        <result xml:space="preserve">What do you want to listen?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2729"></child>
+        </children>
+    </item>
+    <item nodeId="node-2729">
+        <command xml:space="preserve">listen</command>
+        <result xml:space="preserve">What do you want to listen?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2730"></child>
+        </children>
+    </item>
+    <item nodeId="node-2730">
+        <command xml:space="preserve">listen to button</command>
+        <result xml:space="preserve">You hear a cheap cricket sound effect from far off in the distance.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2731"></child>
+        </children>
+    </item>
+    <item nodeId="node-2731">
+        <command xml:space="preserve">listen to button</command>
+        <result xml:space="preserve">You hear someone whisper "Nyeh heh heh!"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2732"></child>
+        </children>
+    </item>
+    <item nodeId="node-2732">
+        <command xml:space="preserve">listen to button</command>
+        <result xml:space="preserve">You hear the sound of your own heartbeat.
+
+HELLO AGAIN! I'D LIKE TO INTRODUCE... THE RATINGS MODULE! HUMAN FEEDBACK IS CRUCIAL TO CREATIVITRIX, AND THIS LITTLE GUY IS HERE TO COLLECT IT! I'LL LET HIM TALK:
+
+
+
+ Please rate your experience with the CREATIVITRIX QUALIFICATION DETERMINATION SIMULATION thus far:
+
+5 - Excellent
+
+4 - Appealing
+
+3 - Unremarkable
+
+2 - Lackluster
+
+1 - Truly Awful
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2733"></child>
+        </children>
+    </item>
+    <item nodeId="node-2733">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">YOU'VE GOT TO ANSWER THE RATING MODULE'S QUESTION FIRST! LOOK AT THE POOR LITTLE GUY, ALL HE WANTS TO DO IS HELP!
+
+YOU CAN CLICK ON THE LINKS THAT WERE PROVIDED OR SIMPLY SAY "RATE &lt;number&gt; STARS".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2734"></child>
+        </children>
+    </item>
+    <item nodeId="node-2734">
+        <command xml:space="preserve">RATE 0 stars</command>
+        <result xml:space="preserve">THANK YOU FOR YOUR FEEDBACK!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2735"></child>
+        </children>
+    </item>
+    <item nodeId="node-2735">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2736"></child>
+        </children>
+    </item>
+    <item nodeId="node-2736">
+        <command xml:space="preserve">look button</command>
+        <result xml:space="preserve">rate 5 stars
+THE RATING MODULE RAN AWAY... IT USUALLY LIKES HIDING DOWN BY THE STRING TABLES IN MAIN MEMORY, SO IT'LL PROBABLY BE FINE. IN THE MEANTIME, HOLD OFF ON RATING ANYTHING.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2737"></child>
+        </children>
+    </item>
+    <item nodeId="node-2737">
+        <command xml:space="preserve">listen to wall</command>
+        <result xml:space="preserve">You hear the sound of your own breathing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2738"></child>
+        </children>
+    </item>
+    <item nodeId="node-2738">
+        <command xml:space="preserve">listen to wall</command>
+        <result xml:space="preserve">You hear the sound of a clanking machine somewhere.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2739"></child>
+        </children>
+    </item>
+    <item nodeId="node-2739">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2740"></child>
+        </children>
+    </item>
+    <item nodeId="node-2740">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1806">
         <command xml:space="preserve">listen to button</command>
         <result xml:space="preserve">You can't see any such thing.
@@ -15858,6 +16073,26 @@ You can only do that to something animate.
         <command xml:space="preserve">inv</command>
         <result xml:space="preserve">You are carrying:
   a 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2758">
+        <command xml:space="preserve">hug alloy</command>
+        <result xml:space="preserve">Which do you mean, the SHIELD alloy, the BLADE alloy, the ENTROPIC alloy, the MEND alloy or the SPARK alloy?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2759"></child>
+        </children>
+    </item>
+    <item nodeId="node-2759">
+        <command xml:space="preserve">hug button</command>
+        <result xml:space="preserve">You softly brush your finger against the button, instead of pushing it. What a tease!
+
+EXCELLENT! BE SURE TO INSPECT YOUR ENVIRONMENT CAREFULLY!
+
+[Your score has just gone up by five points.]
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -17457,6 +17692,518 @@ Taken.
     <item nodeId="node-1958">
         <command xml:space="preserve">combine blade spark</command>
         <result xml:space="preserve">I only understood you as far as wanting to combine.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2676">
+        <command xml:space="preserve">booty</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2677"></child>
+        </children>
+    </item>
+    <item nodeId="node-2677">
+        <command xml:space="preserve">butt</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2678"></child>
+        </children>
+    </item>
+    <item nodeId="node-2678">
+        <command xml:space="preserve">homo</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2679"></child>
+        </children>
+    </item>
+    <item nodeId="node-2679">
+        <command xml:space="preserve">slutty</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2680"></child>
+        </children>
+    </item>
+    <item nodeId="node-2680">
+        <command xml:space="preserve">legs</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2681"></child>
+        </children>
+    </item>
+    <item nodeId="node-2681">
+        <command xml:space="preserve">head</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2682"></child>
+        </children>
+    </item>
+    <item nodeId="node-2682">
+        <command xml:space="preserve">sexy</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2683"></child>
+        </children>
+    </item>
+    <item nodeId="node-2683">
+        <command xml:space="preserve">slutty</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2684"></child>
+        </children>
+    </item>
+    <item nodeId="node-2684">
+        <command xml:space="preserve">nutty</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2685"></child>
+        </children>
+    </item>
+    <item nodeId="node-2685">
+        <command xml:space="preserve">the nutty professor</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2686"></child>
+        </children>
+    </item>
+    <item nodeId="node-2686">
+        <command xml:space="preserve">SLIM JUM</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2687"></child>
+        </children>
+    </item>
+    <item nodeId="node-2687">
+        <command xml:space="preserve">slim jim</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2688"></child>
+        </children>
+    </item>
+    <item nodeId="node-2688">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Combination Station
+WELCOME TO THE QUALIFICATION DETERMINATION SIMULATION COMBINATION STATION! HERE YOU CAN TAKE ALLOYS FROM THE PREVIOUS ROOM AND FORM THEM INTO NEW AND FANCIFUL CREATIONS. WHAT ARE YOU WAITING FOR? LET'S GET CREATIVE!
+
+You are standing in another concrete room. There are exits to the North and South. In the center is a vast machine labeled 'Combinator'. The machine has 3 slots to put alloys in:
+
+Slot 1 is empty.
+
+Slot 2 is empty.
+
+Slot 3 is empty.
+
+You can also see a green button labelled GO and Intern Jim here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2689"></child>
+        </children>
+    </item>
+    <item nodeId="node-2689">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Supply Room
+You are standing in a spacious room made of reinforced concrete. A lighting panel illuminates the room in a tense white glow. There is another room to the SOUTH.
+
+An alcove is carved into the wall in front of you. Hovering in the alcove is: 
+
+a SHIELD alloy
+a BLADE alloy
+an ENTROPIC alloy
+a MEND alloy
+a SPARK alloy
+
+
+A large red button labeled RESUPPLY is mounted above the alcove.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2690"></child>
+        </children>
+    </item>
+    <item nodeId="node-2690">
+        <command xml:space="preserve">dab</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2691"></child>
+        </children>
+    </item>
+    <item nodeId="node-2691">
+        <command xml:space="preserve">spam</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2692"></child>
+        </children>
+    </item>
+    <item nodeId="node-2692">
+        <command xml:space="preserve">talk</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2693"></child>
+        </children>
+    </item>
+    <item nodeId="node-2693">
+        <command xml:space="preserve">ask</command>
+        <result xml:space="preserve">What do you want to ask yourself for?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2694"></child>
+        </children>
+    </item>
+    <item nodeId="node-2694">
+        <command xml:space="preserve">ask self for kiss</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2695"></child>
+        </children>
+    </item>
+    <item nodeId="node-2695">
+        <command xml:space="preserve">thats oks</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2696"></child>
+        </children>
+    </item>
+    <item nodeId="node-2696">
+        <command xml:space="preserve">ask self about self</command>
+        <result xml:space="preserve">You talk to yourself for a little bit. You're a great conversation partner!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2697"></child>
+        </children>
+    </item>
+    <item nodeId="node-2697">
+        <command xml:space="preserve">damn right nigger</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2698"></child>
+        </children>
+    </item>
+    <item nodeId="node-2698">
+        <command xml:space="preserve">KISS ME</command>
+        <result xml:space="preserve">You smooch yourself on the arm.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2699"></child>
+        </children>
+    </item>
+    <item nodeId="node-2699">
+        <command xml:space="preserve">meme self</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2700"></child>
+        </children>
+    </item>
+    <item nodeId="node-2700">
+        <command xml:space="preserve">DANK MAY MAY FAGGOT</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2701"></child>
+        </children>
+    </item>
+    <item nodeId="node-2701">
+        <command xml:space="preserve">ME TOO THANKS</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2702"></child>
+        </children>
+    </item>
+    <item nodeId="node-2702">
+        <command xml:space="preserve">SAME</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2703"></child>
+        </children>
+    </item>
+    <item nodeId="node-2703">
+        <command xml:space="preserve">slap</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2704"></child>
+        </children>
+    </item>
+    <item nodeId="node-2704">
+        <command xml:space="preserve">slap</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2705"></child>
+        </children>
+    </item>
+    <item nodeId="node-2705">
+        <command xml:space="preserve">slap</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2706"></child>
+        </children>
+    </item>
+    <item nodeId="node-2706">
+        <command xml:space="preserve">punch</command>
+        <result xml:space="preserve">What do you want to punch?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2707"></child>
+        </children>
+    </item>
+    <item nodeId="node-2707">
+        <command xml:space="preserve">punch jum</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2708"></child>
+        </children>
+    </item>
+    <item nodeId="node-2708">
+        <command xml:space="preserve">punch jim</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2709"></child>
+        </children>
+    </item>
+    <item nodeId="node-2709">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Combination Station
+
+
+You are standing in another concrete room. There are exits to the North and South. In the center is a vast machine labeled 'Combinator'. The machine has 3 slots to put alloys in:
+
+Slot 1 is empty.
+
+Slot 2 is empty.
+
+Slot 3 is empty.
+
+You can also see a green button labelled GO and Intern Jim here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2710"></child>
+        </children>
+    </item>
+    <item nodeId="node-2710">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">rate 5 stars
+THANK YOU FOR YOUR FEEDBACK!
+
+The entity ripples, as if a giant worm is crawling around just under the surface of its skin.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2711"></child>
+        </children>
+    </item>
+    <item nodeId="node-2711">
+        <command xml:space="preserve">its fine</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2712"></child>
+        </children>
+    </item>
+    <item nodeId="node-2712">
+        <command xml:space="preserve">ZOEY DESCHANNEL</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2713"></child>
+        </children>
+    </item>
+    <item nodeId="node-2713">
+        <command xml:space="preserve">I CANT BE A USEFUL MEMBER OF SOCIETY</command>
+        <result xml:space="preserve">I only understood you as far as wanting to take inventory.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2714"></child>
+        </children>
+    </item>
+    <item nodeId="node-2714">
+        <command xml:space="preserve">HAHAHHA</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2715"></child>
+        </children>
+    </item>
+    <item nodeId="node-2715">
+        <command xml:space="preserve">SAME</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2716"></child>
+        </children>
+    </item>
+    <item nodeId="node-2716">
+        <command xml:space="preserve">joke</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2717"></child>
+        </children>
+    </item>
+    <item nodeId="node-2717">
+        <command xml:space="preserve">KEVIN FEDERLINE</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2718"></child>
+        </children>
+    </item>
+    <item nodeId="node-2718">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Arena
+
+
+This is another large, barren concrete room. Exits are to the north and south.
+
+There is a hostile entity trapped by a force field on the other half of the room from you.
+
+The entity gurgles softly to itself, and jams a finger into its own eye.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2719"></child>
+        </children>
+    </item>
+    <item nodeId="node-2719">
+        <command xml:space="preserve">x entity</command>
+        <result xml:space="preserve">There is a naked, flesh-colored humanoid thing across the room from you. It seems to be bounded to its half of the room by an invisible force field. It's hard to remember what it looks like.
+
+I ADMIRE YOUR INQUISITIVE NATURE!
+THE RATING MODULE IS BACK WITH ANOTHER MESSAGE! ISN'T HE CUTE?
+
+
+
+ Please rate the description of the hostile entity:
+
+5 - Life changing
+
+4 - Impressive
+
+3 - Mediocre
+
+2 - Trivial
+
+1 - Disgusting
+
+The entity stares at you. You feel a dull ache in the base of your spine.
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2720"></child>
+        </children>
+    </item>
+    <item nodeId="node-2720">
+        <command xml:space="preserve">kiss entity</command>
+        <result xml:space="preserve">rate 5 stars
+THANK YOU FOR YOUR FEEDBACK!
+UH... ACTUALLY LOOKS LIKE THE RATINGS MODULE IS BACK AGAIN WITH ANOTHER RATING! WHAT HAVE YOU GOT TO SAY LITTLE GUY?
+
+
+
+ Please rate your experience using the RATING MODULE thus far:
+
+5 - Perfect in every way
+
+4 - Quite good
+
+3 - Meh
+
+2 - Unsatisfactory
+
+1 - Literally painful
+
+The entity suddenly leaps up and clings to the ceiling. Its face changes to an expression of confusion.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2721"></child>
+        </children>
+    </item>
+    <item nodeId="node-2721">
+        <command xml:space="preserve">kiss entity</command>
+        <result xml:space="preserve">rate 5 stars
+OH NO! YOU'VE TERRIFIED THE RATING MODULE WITH YOUR PERFECT SCORE! NOW IT THINKS IT CAN NEVER LIVE UP TO THE GLORY IT'S ACHIEVED FROM YOUR OVERLY PERFECTIONIST RATING. THE RATING MODULE RAN AWAY!
+
+The entity sucks in air, its ribcabe jutting out as its torso compresses into an impossible skinniness.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2722"></child>
+        </children>
+    </item>
+    <item nodeId="node-2722">
+        <command xml:space="preserve">x entity</command>
+        <result xml:space="preserve">There is a naked, flesh-colored humanoid thing across the room from you. It seems to be bounded to its half of the room by an invisible force field. It's hard to remember what it looks like.
+
+The entity's skin bubbles.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -19364,7 +20111,8 @@ You can see slot #1 (empty) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2012"></child>
+        <children><child nodeId="node-2747"></child>
+            <child nodeId="node-2012"></child>
         </children>
     </item>
     <item nodeId="node-2012">
@@ -19538,6 +20286,128 @@ Time passes.
 [Rule "every turn stage rule" applies.]
 [Rule "A last turn sequence rule" applies.]
 [Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2747">
+        <command xml:space="preserve">listen to wall</command>
+        <result xml:space="preserve">You hear the soft hum of Air Conditioning.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2748"></child>
+        </children>
+    </item>
+    <item nodeId="node-2748">
+        <command xml:space="preserve">listen to wall</command>
+        <result xml:space="preserve">You hear a distant refrigerator running.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2749"></child>
+        </children>
+    </item>
+    <item nodeId="node-2749">
+        <command xml:space="preserve">listen to wall</command>
+        <result xml:space="preserve">You hear a cheap cricket sound effect from far off in the distance.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2750"></child>
+        </children>
+    </item>
+    <item nodeId="node-2750">
+        <command xml:space="preserve">listen to wall</command>
+        <result xml:space="preserve">You hear someone whisper "Nyeh heh heh!"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2751"></child>
+        </children>
+    </item>
+    <item nodeId="node-2751">
+        <command xml:space="preserve">listen to wall</command>
+        <result xml:space="preserve">rate 5 stars
+THANK YOU FOR YOUR FEEDBACK!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2752"></child>
+        </children>
+    </item>
+    <item nodeId="node-2752">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Supply Room
+You are standing in a spacious room made of reinforced concrete. A lighting panel illuminates the room in a tense white glow. There is another room to the SOUTH.
+
+An alcove is carved into the wall in front of you. Hovering in the alcove is: 
+
+a SHIELD alloy
+a BLADE alloy
+an ENTROPIC alloy
+a MEND alloy
+a SPARK alloy
+
+
+A large red button labeled RESUPPLY is mounted above the alcove.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2753"></child>
+        </children>
+    </item>
+    <item nodeId="node-2753">
+        <command xml:space="preserve">abstract healing to me</command>
+        <result xml:space="preserve">Which do you mean, the healing syringe, the healing grenade or the healing helmet?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2754"></child>
+        </children>
+    </item>
+    <item nodeId="node-2754">
+        <command xml:space="preserve">abstract helmet to me</command>
+        <result xml:space="preserve">[Abstracted.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2755"></child>
+        </children>
+    </item>
+    <item nodeId="node-2755">
+        <command xml:space="preserve">wear helmet</command>
+        <result xml:space="preserve">You place the helmet on your head. Your body surges with healing energy! You'll heal a little each turn.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2756"></child>
+        </children>
+    </item>
+    <item nodeId="node-2756">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Supply Room
+You are standing in a spacious room made of reinforced concrete. A lighting panel illuminates the room in a tense white glow. There is another room to the SOUTH.
+
+An alcove is carved into the wall in front of you. Hovering in the alcove is: 
+
+a SHIELD alloy
+a BLADE alloy
+an ENTROPIC alloy
+a MEND alloy
+a SPARK alloy
+
+
+A large red button labeled RESUPPLY is mounted above the alcove.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2757"></child>
+        </children>
+    </item>
+    <item nodeId="node-2757">
+        <command xml:space="preserve">inv</command>
+        <result xml:space="preserve">You are carrying:
+  a healing helmet (being worn)
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>

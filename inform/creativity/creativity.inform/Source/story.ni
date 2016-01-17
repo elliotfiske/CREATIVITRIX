@@ -128,7 +128,9 @@ Report giverating:
 
 Before player trying doing anything except giverating (this is the don't ignore the rating module rule):	
 	if r_state of rating_module is rate_rating or r_state of rating_module is rate_description or r_state of rating_module is rate_first:
-		instead say "YOU'VE GOT TO ANSWER THE RATING MODULE'S QUESTION FIRST! LOOK AT THE POOR LITTLE GUY, ALL HE WANTS TO DO IS HELP!";
+		instead say "YOU'VE GOT TO ANSWER THE RATING MODULE'S QUESTION FIRST! LOOK AT THE POOR LITTLE GUY, ALL HE WANTS TO DO IS HELP!
+		
+		YOU CAN CLICK ON THE LINKS THAT WERE PROVIDED OR SIMPLY SAY 'RATE <number> STARS'.";
 
 Chapter 3 - Cool types
 
@@ -241,6 +243,15 @@ Before smooching:
 		
 Carry out tasting Jim:
 	say "You and Jim share a passionate kiss. He cradles the back of your head with his hand and whispers something to you. The hairs on the back of your neck stand up.";
+	
+Carry out touching Jim:
+	say "You and Jim share an intimate moment.";
+	
+[Understand "hug [something]" as something new.]
+Hugging is an action applying to one thing. Understand "hug [thing]" as hugging.
+
+Before hugging:
+	instead try touching noun;
 
 Yelling is an action applying to nothing. Understand "yell" as yelling. Understand "shout" as yelling. Understand "scream" as yelling. Understand "shout" as yelling.
 
@@ -328,7 +339,6 @@ Understand "pop a squat" as a mistake ("YOU CROUCH DOWN ON YOUR CALVES AND UNLEA
 Section 2 - Combinations
 
 Combining is an action applying to nothing. Understand "combine" as combining.
-
 
 Understand "combine [thing]" as a mistake ("Just say 'COMBINE' to combine all the alloys in your inventory.")
 
@@ -477,6 +487,9 @@ To say alloy_list for (alc - a thing):
 	say "[paragraph break]";
 	repeat with yay_alloy running through the list of all visible alloys:
 		say "[a yay_alloy][line break]";
+		
+To say body_part:
+	say "[one of]torso[or]arm[or]leg[or]knee[or]eye[or]head[or]fibula[or]butt[or]face[or]elbow[or]kneecap[or]throat[or]funny bone[at random]";
 		
 
 The alcove is in the Supply Room. It is fixed in place. "[if supply room is visited]An alcove is carved into the wall in front of you. Hovering in the alcove is: [alloy_list for alcove][else] "
@@ -803,9 +816,11 @@ Carry out Jim attacking something (called victim) (this is the JIM THE PUNISHER 
 				say "JIM WILL ATTACK ANYTHING, EVEN SOMETHING WITHOUT A PULSE! HE'S AN ABSOLUTE MADMAN! GOOD JOB ON FINDING THAT OUT!";
 				increase score by 10;
 				now object_jim is true;
-		if victim is player and jim_hit_player is false:
-			say "AMAZING! USING JIM TO TEST YOUR COMBAT ABILITIES IS A FANTASTIC IDEA.";
-			now jim_hit_player is true;
+		if victim is player:
+			if jim_hit_player is false:
+				say "AMAZING! USING JIM TO TEST YOUR COMBAT ABILITIES IS A FANTASTIC IDEA.";
+				increase score by 20;
+				now jim_hit_player is true;
 		
 		
 			
@@ -915,3 +930,4 @@ Check pressing the FINISH button:
 	say "-------------------";
 	wait for any key;
 	[now the left hand status line is "POST-GAME BLISS";]
+	

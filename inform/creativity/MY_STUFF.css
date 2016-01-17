@@ -8,6 +8,10 @@
     color: #00F7E8;
 }
 
+a {
+    text-decoration: underline; !important
+}
+
 .Style_normal {
     color: #158780;
     font-family: 'Open Sans', sans-serif;
@@ -28,6 +32,11 @@
 
 .container #gameport {
     left: 21.4em; !important
+}
+
+.Style_note {
+    color: #759E22; !important
+	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace; !important
 }
 
 .WindowFrame.GridWindow .Style_normal {
